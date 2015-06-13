@@ -1,5 +1,7 @@
 # CSV to HTML Table
 
+Display any CSV file as a searchable, filterable, pretty HTML table.
+
 ## Usage
 
 1. Clone this repository (in the command line)
