@@ -15,13 +15,21 @@ cd csv-to-html-table
 
 2. Add your CSV file to the `data/` folder
 
-3. In `index.html` point the page to your CSV file
+3. In `index.html` configure the `init_table()` function
 
 ``` html
 <script>
-  init_table('YOUR CSV FILE HERE', 'table-container');
+  init_table({
+    csv_path: 'data/fatty_acid_profiles.csv', 
+    element: 'table-container', 
+    allow_download: true
+  });
 </script>
 ```
+
+* `csv_path` Path to your CSV file.
+* `element` The HTML element to render your table to. Defaults to `table-container`
+* `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
 
 4. You can run this by uploading it to a web server, or locally using this handy python command:
 

@@ -1,6 +1,11 @@
-function init_table(csv_path, el) {
+function init_table(options) {
 
-  $("#" + el).html("<table class='table table-striped' id='my-table'></table>");
+  options = options || {};
+  var csv_path = options.csv_path || "";
+  var el = options.element || "table-container";
+  var allow_download = options.allow_download || false;
+
+  $("#" + el).html("<table class='table table-striped table-condensed' id='my-table'></table>");
 
   $.when($.get(csv_path)).then(
     function(data){
@@ -28,5 +33,8 @@ function init_table(csv_path, el) {
       }
 
       $("#my-table").DataTable();
+
+      if (allow_download)
+        $("#" + el).append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
     });
 }

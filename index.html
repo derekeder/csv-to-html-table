@@ -40,7 +40,11 @@
     <script src='js/csv_to_html_table.js'></script>
 
     <script>
-      init_table('data/fatty_acid_profiles.csv', 'table-container');
+      init_table({
+        csv_path: 'data/fatty_acid_profiles.csv', 
+        element: 'table-container', 
+        allow_download: true
+      });
     </script>
   </body>
 </html>
