@@ -5,7 +5,6 @@ function init_table(csv_path, el) {
   $.when($.get(csv_path)).then(
     function(data){
       var csv_data = $.csv.toArrays(data);
-      console.log(csv_data)
 
       var table_head = "<thead><tr>";
 
