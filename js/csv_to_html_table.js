@@ -4,6 +4,7 @@ function init_table(options) {
   var csv_path = options.csv_path || "";
   var el = options.element || "table-container";
   var allow_download = options.allow_download || false;
+  var datatable_settings = options.datatable_settings || {}
 
   $("#" + el).html("<table class='table table-striped table-condensed' id='my-table'></table>");
 
@@ -32,7 +33,7 @@ function init_table(options) {
         $('#my-table tbody').append(row_html);
       }
 
-      $("#my-table").DataTable();
+      $("#my-table").DataTable(datatable_settings);
 
       if (allow_download)
         $("#" + el).append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");

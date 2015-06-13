@@ -22,7 +22,8 @@ cd csv-to-html-table
   init_table({
     csv_path: 'data/Health Clinics in Chicago.csv', 
     element: 'table-container', 
-    allow_download: true
+    allow_download: true,
+    datatable_settings: {"paging": false}
   });
 </script>
 ```
@@ -30,6 +31,7 @@ cd csv-to-html-table
 * `csv_path` Path to your CSV file.
 * `element` The HTML element to render your table to. Defaults to `table-container`
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
+* `datatable_settings` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
 
 4. You can run this by uploading it to a web server, or locally using this handy python command:
 
@@ -38,8 +40,6 @@ python -m SimpleHTTPServer
 ```
 
 navigate to http://localhost:8000/
-
-5. Customize! If you want to, you can customize how the table displays, sorts or looks by editing the [DataTables config](http://datatables.net/examples/basic_init/index.html) in `js/csv_to_html_table.js`
 
 ## Dependencies
 

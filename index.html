@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>CSV to HTML Table</title>
-    <meta name="author" content="Institute for Housing Studies - DePaul University">
+    <meta name="author" content="Derek Eder">
     <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
 
     <!-- Bootstrap core CSS -->
@@ -29,6 +29,13 @@
 
     </div><!-- /.container -->
 
+    <footer class='footer'>
+      <div class='container-fluid'>
+        <hr />
+        <p>© 2015 <a href='http://derekeder.com'>Derek Eder</a></p>
+      </div>
+    </footer>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -43,7 +50,8 @@
       init_table({
         csv_path: 'data/Health Clinics in Chicago.csv', 
         element: 'table-container', 
-        allow_download: true
+        allow_download: true,
+        datatable_settings: {"paging": false}
       });
     </script>
   </body>
