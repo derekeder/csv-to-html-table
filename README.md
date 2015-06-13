@@ -6,16 +6,16 @@ Check out the working demo: http://derekeder.github.io/csv-to-html-table/
 
 ## Usage
 
-1. Clone this repository (in the command line)
+### 1. Clone this repository (in the command line)
 
 ``` bash
 git clone git@github.com:derekeder/csv-to-html-table.git
 cd csv-to-html-table
 ```
 
-2. Add your CSV file to the `data/` folder
+### 2. Add your CSV file to the `data/` folder
 
-3. In `index.html` configure the `init_table()` function
+### 3. In `index.html` configure the `init_table()` function
 
 ``` html
 <script>
@@ -33,7 +33,9 @@ cd csv-to-html-table
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
 * `datatable_settings` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
 
-4. You can run this by uploading it to a web server, or locally using this handy python command:
+### 4. Run it
+
+You can run this by uploading it to a web server, or locally using this handy python command:
 
 ```bash
 python -m SimpleHTTPServer
