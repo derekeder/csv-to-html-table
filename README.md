@@ -20,7 +20,7 @@ cd csv-to-html-table
 ``` html
 <script>
   init_table({
-    csv_path: 'data/fatty_acid_profiles.csv', 
+    csv_path: 'data/Health Clinics in Chicago.csv', 
     element: 'table-container', 
     allow_download: true
   });
