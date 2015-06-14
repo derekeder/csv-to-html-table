@@ -53,7 +53,7 @@ navigate to http://localhost:8000/
 ## Errors / Bugs
 
 If something is not behaving intuitively, it is a bug, and should be reported.
-Report it here: https://github.com/datamade/csv-to-html-table/issues
+Report it here: https://github.com/derekeder/csv-to-html-table/issues
 
 ## Note on Patches/Pull Requests
  
