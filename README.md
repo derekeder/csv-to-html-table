@@ -29,6 +29,7 @@ cd csv-to-html-table
 </script>
 ```
 
+Available options:
 * `csv_path` Path to your CSV file.
 * `element` The HTML element to render your table to. Defaults to `table-container`
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
