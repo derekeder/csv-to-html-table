@@ -48,9 +48,7 @@ navigate to http://localhost:8000/
 
 #### 5. Deploy it
 
-**GitHub pages** You can host your table on GitHub pages for free! Once you've made all your changes and committed them, you can push them to the `gh-pages` branch:
-
-Push everything in the `master` branch to the `gh-pages` which automatically enables GitHub pages.
+**GitHub pages** You can host your table on GitHub pages for free! Once you've made all your changes and committed them, push everything in the `master` branch to `gh-pages` which automatically enables GitHub pages.
 ```bash
 git push origin master:gh-pages
 ```
@@ -59,7 +57,7 @@ Then navigate to http://your-github-username.github.io/csv-to-html-table/
 
 Read more on working with [GitHub pages projects](https://help.github.com/articles/user-organization-and-project-pages/#project-pages).
 
-**Web server** This project should work on any web server. Just upload this entire project (including all the `css`, `data`, `fonts` and `js` folders) to a folder on your server using FTP.
+**Web server** This project should work on any web server. Upload this entire project (including all the `css`, `data`, `fonts` and `js` folders) to a public folder on your server using FTP.
 
 #### 6. iframe it (optional)
 
