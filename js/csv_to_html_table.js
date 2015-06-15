@@ -4,13 +4,14 @@ function init_table(options) {
   var csv_path = options.csv_path || "";
   var el = options.element || "table-container";
   var allow_download = options.allow_download || false;
-  var datatable_settings = options.datatable_settings || {}
+  var csv_options = options.csv_options || {};
+  var datatables_options = options.datatables_options || {};
 
   $("#" + el).html("<table class='table table-striped table-condensed' id='my-table'></table>");
 
   $.when($.get(csv_path)).then(
     function(data){
-      var csv_data = $.csv.toArrays(data);
+      var csv_data = $.csv.toArrays(data, csv_options);
 
       var table_head = "<thead><tr>";
 
@@ -33,7 +34,7 @@ function init_table(options) {
         $('#my-table tbody').append(row_html);
       }
 
-      $("#my-table").DataTable(datatable_settings);
+      $("#my-table").DataTable(datatables_options);
 
       if (allow_download)
         $("#" + el).append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");

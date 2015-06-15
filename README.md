@@ -23,7 +23,8 @@ cd csv-to-html-table
     csv_path: 'data/Health Clinics in Chicago.csv', 
     element: 'table-container', 
     allow_download: true,
-    datatable_settings: {"paging": false}
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {"paging": false}
   });
 </script>
 ```
@@ -31,7 +32,8 @@ cd csv-to-html-table
 * `csv_path` Path to your CSV file.
 * `element` The HTML element to render your table to. Defaults to `table-container`
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
-* `datatable_settings` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
+* `csv_options` jQuery CSV configuration. Use this if you want to use a custom `delimiter` or `separator` in your input file. See [their documentation](https://code.google.com/p/jquery-csv/wiki/API#$.csv.toArrays%28%29).
+* `datatables_options` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
 
 ### 4. Run it
 

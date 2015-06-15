@@ -55,7 +55,8 @@
         csv_path: 'data/Health Clinics in Chicago.csv', 
         element: 'table-container', 
         allow_download: true,
-        datatable_settings: {"paging": false}
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false}
       });
     </script>
   </body>
