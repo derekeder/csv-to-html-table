@@ -6,16 +6,16 @@ Check out the working demo: http://derekeder.github.io/csv-to-html-table/
 
 ## Usage
 
-### 1. Clone this repository (in the command line)
+#### 1. Clone this repository (in the command line)
 
 ``` bash
 git clone git@github.com:derekeder/csv-to-html-table.git
 cd csv-to-html-table
 ```
 
-### 2. Add your CSV file to the `data/` folder
+#### 2. Add your CSV file to the `data/` folder
 
-### 3. In `index.html` configure the `init_table()` function
+#### 3. In `index.html` configure the `init_table()` function
 
 ``` html
 <script>
@@ -35,7 +35,7 @@ cd csv-to-html-table
 * `csv_options` jQuery CSV configuration. Use this if you want to use a custom `delimiter` or `separator` in your input file. See [their documentation](https://code.google.com/p/jquery-csv/wiki/API#$.csv.toArrays%28%29).
 * `datatables_options` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
 
-### 4. Run it
+#### 4. Run it
 
 You can run this locally using this handy python command:
 
