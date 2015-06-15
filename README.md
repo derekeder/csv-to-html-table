@@ -61,7 +61,6 @@ Report it here: https://github.com/derekeder/csv-to-html-table/issues
  
 * Fork the project.
 * Make your feature addition or bug fix.
-* Commit, do not mess with rakefile, version, or history.
 * Send a pull request. Bonus points for topic branches.
 
 ## Copyright
