@@ -6,16 +6,16 @@ Check out the working demo: http://derekeder.github.io/csv-to-html-table/
 
 ## Usage
 
-### 1. Clone this repository (in the command line)
+#### 1. Clone this repository (in the command line)
 
 ``` bash
 git clone git@github.com:derekeder/csv-to-html-table.git
 cd csv-to-html-table
 ```
 
-### 2. Add your CSV file to the `data/` folder
+#### 2. Add your CSV file to the `data/` folder
 
-### 3. In `index.html` configure the `init_table()` function
+#### 3. In `index.html` configure the `init_table()` function
 
 ``` html
 <script>
@@ -29,21 +29,43 @@ cd csv-to-html-table
 </script>
 ```
 
+Available options:
 * `csv_path` Path to your CSV file.
 * `element` The HTML element to render your table to. Defaults to `table-container`
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
 * `csv_options` jQuery CSV configuration. Use this if you want to use a custom `delimiter` or `separator` in your input file. See [their documentation](https://code.google.com/p/jquery-csv/wiki/API#$.csv.toArrays%28%29).
 * `datatables_options` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
 
-### 4. Run it
+#### 4. Run it
 
-You can run this by uploading it to a web server, or locally using this handy python command:
+You can run this locally using this handy python command:
 
 ```bash
 python -m SimpleHTTPServer
 ```
 
 navigate to http://localhost:8000/
+
+#### 5. Deploy it
+
+**GitHub pages** You can host your table on GitHub pages for free! Once you've made all your changes and committed them, push everything in the `master` branch to `gh-pages` which automatically enables GitHub pages.
+```bash
+git push origin master:gh-pages
+```
+
+Then navigate to http://your-github-username.github.io/csv-to-html-table/
+
+Read more on working with [GitHub pages projects](https://help.github.com/articles/user-organization-and-project-pages/#project-pages).
+
+**Web server** This project should work on any web server. Upload this entire project (including all the `css`, `data`, `fonts` and `js` folders) to a public folder on your server using FTP.
+
+#### 6. iframe it (optional)
+
+Want to embed your nifty table on your website? You can use an [iframe](http://www.w3schools.com/tags/tag_iframe.asp). Once you've deployed your table (above in step 5) you can link to it in an iframe right in your HTML.
+
+```html
+<iframe style="border-style: none;" src="http://derekeder.github.io/csv-to-html-table/" height="950" width="600"></iframe>
+```
 
 ## Dependencies
 
