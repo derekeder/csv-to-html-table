@@ -11,6 +11,9 @@ function init_table(options) {
 
   $.when($.get(csv_path)).then(
     function(data){
+
+      data = data.replace(/[\r|\r\n]/g, "\n");
+      
       var csv_data = $.csv.toArrays(data, csv_options);
 
       var table_head = "<thead><tr>";
