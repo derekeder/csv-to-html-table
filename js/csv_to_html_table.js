@@ -10,10 +10,7 @@ function init_table(options) {
   $("#" + el).html("<table class='table table-striped table-condensed' id='my-table'></table>");
 
   $.when($.get(csv_path)).then(
-    function(data){
-
-      data = data.replace(/[\r|\r\n]/g, "\n");
-      
+    function(data){      
       var csv_data = $.csv.toArrays(data, csv_options);
 
       var table_head = "<thead><tr>";
