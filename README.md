@@ -76,7 +76,7 @@ Want to embed your nifty table on your website? You can use an [iframe](http://w
 
 ## Common issues/troubleshooting
 
-If your map isn't displaying any data, try the following:
+If your table isn't displaying any data, try the following:
 
 1. Use the [Chrome developer console](https://developers.google.com/chrome-developer-tools/docs/console) or install [Firebug](http://getfirebug.com/) for FireFox. This will allow you to debug your javascript.
 1. Open your table in the browser and open the javascript console 
