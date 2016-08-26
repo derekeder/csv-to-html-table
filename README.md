@@ -74,6 +74,17 @@ Want to embed your nifty table on your website? You can use an [iframe](http://w
 * [jQuery CSV](https://github.com/evanplaice/jquery-csv/) - Parse CSV (Comma Separated Values) to Javascript arrays or dictionaries.
 * [DataTables](http://datatables.net/) - add advanced interaction controls to any HTML table.
 
+## Common issues/troubleshooting
+
+If your table isn't displaying any data, try the following:
+
+1. Use the [Chrome developer console](https://developers.google.com/chrome-developer-tools/docs/console) or install [Firebug](http://getfirebug.com/) for FireFox. This will allow you to debug your javascript.
+1. Open your table in the browser and open the javascript console 
+   * Chrome developer console on a Mac: Option+Command+J
+   * Chrome developer console on a PC: Control+Shift+J
+   * Firebug in Firefox: Tools => Web Developer => Firebug => Open Firebug) 
+1. If you do see javascript errors, the error will tell you what line it is failing on. Best to start by going there!
+
 ## Errors / Bugs
 
 If something is not behaving intuitively, it is a bug, and should be reported.
