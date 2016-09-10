@@ -19,7 +19,7 @@ cd csv-to-html-table
 
 ``` html
 <script>
-  init_table({
+  CsvToHtmlTable.init({
     csv_path: 'data/Health Clinics in Chicago.csv', 
     element: 'table-container', 
     allow_download: true,
@@ -29,12 +29,43 @@ cd csv-to-html-table
 </script>
 ```
 
-Available options:
+##### Available options
+
 * `csv_path` Path to your CSV file.
 * `element` The HTML element to render your table to. Defaults to `table-container`
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
 * `csv_options` jQuery CSV configuration. Use this if you want to use a custom `delimiter` or `separator` in your input file. See [their documentation](https://code.google.com/p/jquery-csv/wiki/API#$.csv.toArrays%28%29).
 * `datatables_options` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
+* **new!** `custom_formatting` a list of column indexes and custom functions to format your data
+
+
+##### Custom formatting
+If you want to do custom formatting for one or more column, you can pass in an array of arrays containing the index of the column and a custom function for formatting it. You can pass in multiple formatters and they will be executed in order.
+
+Example:
+
+``` html
+<script>
+
+  //my custom function that creates a hyperlink
+  function format_link(link){
+    if (link)
+      return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+    else
+      return "";
+  }
+
+  //initializing the table
+  CsvToHtmlTable.init({
+    csv_path: 'data/Health Clinics in Chicago.csv', 
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {"paging": false},
+    custom_formatting: [[4, format_link]] //execute the function on the 4th column of every row
+  });
+</script>
+```
 
 #### 4. Run it
 
