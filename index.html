@@ -51,12 +51,20 @@
     <script src='js/csv_to_html_table.js'></script>
 
     <script>
-      init_table({
+      function format_link(link){
+        if (link)
+          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+        else
+          return "";
+      }
+
+      CsvToHtmlTable.init({
         csv_path: 'data/Health Clinics in Chicago.csv', 
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false}
+        datatables_options: {"paging": false},
+        custom_formatting: [[4, format_link]]
       });
     </script>
   </body>
