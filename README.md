@@ -42,6 +42,8 @@ cd csv-to-html-table
 ##### Custom formatting
 If you want to do custom formatting for one or more column, you can pass in an array of arrays containing the index of the column and a custom function for formatting it. You can pass in multiple formatters and they will be executed in order.
 
+The custom functions must take in one parameter (the value in the cell) and return a string.
+
 Example:
 
 ``` html
