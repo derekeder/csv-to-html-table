@@ -15,7 +15,7 @@ cd csv-to-html-table
 
 #### 2. Add your CSV file to the `data/` folder
 
-#### 3. In `index.html` configure the `init_table()` function
+#### 3. In `index.html` set your options in the `CsvToHtmlTable.init()` function
 
 ``` html
 <script>
@@ -36,13 +36,13 @@ cd csv-to-html-table
 * `allow_download` if true, shows a link to download the CSV file. Defaults to `false`
 * `csv_options` jQuery CSV configuration. Use this if you want to use a custom `delimiter` or `separator` in your input file. See [their documentation](https://code.google.com/p/jquery-csv/wiki/API#$.csv.toArrays%28%29).
 * `datatables_options` DataTables configuration. See [their documentation](http://datatables.net/reference/option/).
-* **new!** `custom_formatting` a list of column indexes and custom functions to format your data
+* `custom_formatting` **New!** A list of column indexes and custom functions to format your data (see below)
 
 
 ##### Custom formatting
 If you want to do custom formatting for one or more column, you can pass in an array of arrays containing the index of the column and a custom function for formatting it. You can pass in multiple formatters and they will be executed in order.
 
-The custom functions must take in one parameter (the value in the cell) and return a string.
+The custom functions must take in one parameter (the value in the cell) and return a string:
 
 Example:
 
