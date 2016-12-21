@@ -16,7 +16,12 @@ CsvToHtmlTable = {
       $.when($.get(csv_path)).then(
         function(data){      
           var csv_data = $.csv.toArrays(data, csv_options);
-
+          // escape nasty HTML entities
+          for (i=0;i<csv_data.length;i++){
+              for(j=0;j<csv_data[i].length;j++){
+              csv_data[i][j] = $("<div>").text(csv_data[i][j]).html();
+              }
+          }
           var table_head = "<thead><tr>";
 
           for (head_id = 0; head_id < csv_data[0].length; head_id++) { 
