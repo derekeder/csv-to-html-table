@@ -22,7 +22,7 @@
 
   <body>
     <div class="container-fluid">
-<h2>List of IDRH talks</h2>
+<p>The table below provides links to many of the talks, workshops, interviews we have hosted at IDRH since 2011. Click on the arrows in each column heading to reorder the table, or use the search box to filter for specific content.</p>
       
       <div id='table-container'></div>
 
@@ -59,7 +59,7 @@
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false, "order":[[2,"desc"]]},
+        datatables_options: {"paging": false, "order":[[2,"desc"]], "colReorder": {order: [2, 0, 1, 3, 4]}},
         custom_formatting: [[4, format_link]]
       });
     </script>
