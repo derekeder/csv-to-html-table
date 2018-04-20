@@ -9,6 +9,13 @@ CsvToHtmlTable = {
         var csv_options = options.csv_options || {};
         var datatables_options = options.datatables_options || {};
         var custom_formatting = options.custom_formatting || [];
+        var customTemplates = {};
+        $.each(custom_formatting, function (i, v) {
+            var colIdx = v[0];
+            var func = v[1];
+            customTemplates[colIdx] = func;
+        });
+
         var $table = $("<table class='table table-striped table-condensed' id='" + el + "-table'></table>");
         var $containerElement = $("#" + el);
         $containerElement.empty().append($table);
@@ -29,18 +36,13 @@ CsvToHtmlTable = {
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
                     var row_html = "<tr>";
-
-                    //takes in an array of column index and function pairs
-                    if (custom_formatting != []) {
-                        $.each(custom_formatting, function (i, v) {
-                            var colIdx = v[0];
-                            var func = v[1];
-                            csvData[rowIdx][colIdx] = func(csvData[rowIdx][colIdx]);
-                        })
-                    }
-
                     for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
-                        row_html += "<td>" + csvData[rowIdx][colIdx] + "</td>";
+                        var cellTemplateFunc = customTemplates[colIdx];
+                        if (cellTemplateFunc) {
+                            row_html += "<td>" + cellTemplateFunc(csvData[rowIdx][colIdx]) + "</td>";
+                        } else {
+                            row_html += "<td>" + csvData[rowIdx][colIdx] + "</td>";
+                        }
                     }
 
                     row_html += "</tr>";
