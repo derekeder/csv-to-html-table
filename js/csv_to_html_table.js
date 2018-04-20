@@ -35,18 +35,18 @@ CsvToHtmlTable = {
                 var $tableBody = $("<tbody></tbody>");
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
-                    var row_html = "<tr>";
+                    var $tableBodyRow = $("<tr></tr>");
                     for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
+                        var $tableBodyRowTd = $("<td></td>");
                         var cellTemplateFunc = customTemplates[colIdx];
                         if (cellTemplateFunc) {
-                            row_html += "<td>" + cellTemplateFunc(csvData[rowIdx][colIdx]) + "</td>";
+                            $tableBodyRowTd.html(cellTemplateFunc(csvData[rowIdx][colIdx]));
                         } else {
-                            row_html += "<td>" + csvData[rowIdx][colIdx] + "</td>";
+                            $tableBodyRowTd.text(csvData[rowIdx][colIdx]);
                         }
+                        $tableBodyRow.append($tableBodyRowTd);
+                        $tableBody.append($tableBodyRow);
                     }
-
-                    row_html += "</tr>";
-                    $tableBody.append(row_html);
                 }
                 $table.append($tableBody);
 
