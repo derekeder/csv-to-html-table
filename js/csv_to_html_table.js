@@ -14,32 +14,33 @@ CsvToHtmlTable = {
 
         $.when($.get(csv_path)).then(
             function (data) {
-                var csv_data = $.csv.toArrays(data, csv_options);
+                var csvData = $.csv.toArrays(data, csv_options);
 
-                var table_head = "<thead><tr>";
+                var tableHead = "<thead><tr>";
 
-                for (head_id = 0; head_id < csv_data[0].length; head_id++) {
-                    table_head += "<th>" + csv_data[0][head_id] + "</th>";
+                var csvHeaderRow = csvData[0];
+                for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
+                    tableHead += "<th>" + csvHeaderRow[headerIdx] + "</th>";
                 }
 
-                table_head += "</tr></thead>";
-                $('#' + el + '-table').append(table_head);
+                tableHead += "</tr></thead>";
+                $('#' + el + '-table').append(tableHead);
                 $('#' + el + '-table').append("<tbody></tbody>");
 
-                for (row_id = 1; row_id < csv_data.length; row_id++) {
+                for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
                     var row_html = "<tr>";
 
                     //takes in an array of column index and function pairs
                     if (custom_formatting != []) {
                         $.each(custom_formatting, function (i, v) {
-                            var col_idx = v[0];
+                            var colIdx = v[0];
                             var func = v[1];
-                            csv_data[row_id][col_idx] = func(csv_data[row_id][col_idx]);
+                            csvData[rowIdx][colIdx] = func(csvData[rowIdx][colIdx]);
                         })
                     }
 
-                    for (col_id = 0; col_id < csv_data[row_id].length; col_id++) {
-                        row_html += "<td>" + csv_data[row_id][col_id] + "</td>";
+                    for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
+                        row_html += "<td>" + csvData[rowIdx][colIdx] + "</td>";
                     }
 
                     row_html += "</tr>";
