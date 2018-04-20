@@ -9,8 +9,8 @@ CsvToHtmlTable = {
         var csv_options = options.csv_options || {};
         var datatables_options = options.datatables_options || {};
         var custom_formatting = options.custom_formatting || [];
-
-        $("#" + el).html("<table class='table table-striped table-condensed' id='" + el + "-table'></table>");
+        var $table = $("<table class='table table-striped table-condensed' id='" + el + "-table'></table>");
+        $("#" + el).empty().append($table);
 
         $.when($.get(csv_path)).then(
             function (data) {
@@ -24,8 +24,9 @@ CsvToHtmlTable = {
                 }
 
                 tableHead += "</tr></thead>";
-                $('#' + el + '-table').append(tableHead);
-                $('#' + el + '-table').append("<tbody></tbody>");
+                $table.append(tableHead);
+                var $tableBody = $("<tbody></tbody>");
+                $table.append($tableBody);
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
                     var row_html = "<tr>";
@@ -44,10 +45,10 @@ CsvToHtmlTable = {
                     }
 
                     row_html += "</tr>";
-                    $('#' + el + '-table tbody').append(row_html);
+                    $tableBody.append(row_html);
                 }
 
-                $('#' + el + '-table').DataTable(datatables_options);
+                $table.DataTable(datatables_options);
 
                 if (allow_download) {
                     $("#" + el).append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
