@@ -16,18 +16,16 @@ CsvToHtmlTable = {
         $.when($.get(csv_path)).then(
             function (data) {
                 var csvData = $.csv.toArrays(data, csv_options);
-
-                var tableHead = "<thead><tr>";
-
+                var $tableHead = $("<thead></thead>");
                 var csvHeaderRow = csvData[0];
+                var $tableHeadRow = $("<tr></tr>");
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
-                    tableHead += "<th>" + csvHeaderRow[headerIdx] + "</th>";
+                    $tableHeadRow.append($("<th></th>").text(csvHeaderRow[headerIdx]));
                 }
+                $tableHead.append($tableHeadRow);
 
-                tableHead += "</tr></thead>";
-                $table.append(tableHead);
+                $table.append($tableHead);
                 var $tableBody = $("<tbody></tbody>");
-                $table.append($tableBody);
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
                     var row_html = "<tr>";
@@ -48,6 +46,7 @@ CsvToHtmlTable = {
                     row_html += "</tr>";
                     $tableBody.append(row_html);
                 }
+                $table.append($tableBody);
 
                 $table.DataTable(datatables_options);
 
