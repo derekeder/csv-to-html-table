@@ -10,7 +10,8 @@ CsvToHtmlTable = {
         var datatables_options = options.datatables_options || {};
         var custom_formatting = options.custom_formatting || [];
         var $table = $("<table class='table table-striped table-condensed' id='" + el + "-table'></table>");
-        $("#" + el).empty().append($table);
+        var $containerElement = $("#" + el);
+        $containerElement.empty().append($table);
 
         $.when($.get(csv_path)).then(
             function (data) {
@@ -51,7 +52,7 @@ CsvToHtmlTable = {
                 $table.DataTable(datatables_options);
 
                 if (allow_download) {
-                    $("#" + el).append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
+                    $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
                 }
             });
     }
