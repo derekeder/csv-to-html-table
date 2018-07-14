@@ -126,6 +126,14 @@ If your table isn't displaying any data, try the following:
 If something is not behaving intuitively, it is a bug, and should be reported.
 Report it here: https://github.com/derekeder/csv-to-html-table/issues
 
+
+## Contributors 
+
+* [Derek Eder](http://derekeder.com) - primary contributor
+* [ychaouche](https://github.com/ychaouche) - [javascript tag fixes](https://github.com/derekeder/csv-to-html-table/pull/30)
+* [Freddy Martinez](https://github.com/b-meson) - [localized javascript libraries](https://github.com/derekeder/csv-to-html-table/pull/17)
+* [Sergey Ponomarev](https://github.com/stokito) - [CSV escaped in HTML output](https://github.com/derekeder/csv-to-html-table/pull/60)
+
 ## Note on Patches/Pull Requests
  
 * Fork the project.
@@ -134,4 +142,4 @@ Report it here: https://github.com/derekeder/csv-to-html-table/issues
 
 ## Copyright
 
-Copyright (c) 2015 Derek Eder. Released under the [MIT License](https://github.com/derekeder/csv-to-html-table/blob/master/LICENSE).
+Copyright (c) 2018 Derek Eder. Released under the [MIT License](https://github.com/derekeder/csv-to-html-table/blob/master/LICENSE).
