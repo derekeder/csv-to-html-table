@@ -45,6 +45,8 @@ CsvToHtmlTable = {
                         console.log(this.value)
                         data_table_g.column(i).search(this.value).draw();
                     }
+                    $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onkeyup =
+                        $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange
                 }
 
                 $tableHead.append($tableHeadRow_filter);
