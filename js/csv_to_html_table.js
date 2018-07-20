@@ -1,5 +1,5 @@
 var CsvToHtmlTable = CsvToHtmlTable || {};
-var data_table_g = {};
+var CsvToHtmlTable_DataTable = {};
 
 CsvToHtmlTable = {
     init: function (options) {
@@ -9,6 +9,7 @@ CsvToHtmlTable = {
         var allow_download = options.allow_download || false;
         var csv_options = options.csv_options || {};
         var datatables_options = options.datatables_options || {};
+        var column_filters = options.column_filters || false;
         var custom_formatting = options.custom_formatting || [];
         var customTemplates = {};
         $.each(custom_formatting, function (i, v) {
@@ -31,24 +32,20 @@ CsvToHtmlTable = {
                     $tableHeadRow.append($("<th></th>").text(csvHeaderRow[headerIdx]));
                 }
 
-                var $tableHeadRow_filter = $("<tr></tr>");
-                for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
-                    $tableHeadRow_filter.append($("<th></th>").html(
-                        '<input type="text" id="col_f-' + headerIdx + '" placeholder="filter column" />'));
-                    $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function(arg1, arg2, arg3) {
-                        // Thanks to https://stackoverflow.com/questions/5913927
-                        // get column number
-                        var i = parseInt(arg1.target.id.substr(6));
-                        console.log("column filter")
-                        console.log(i)
-                        console.log(this.value)
-                        data_table_g.column(i).search(this.value).draw();
+                if (column_filters) {
+                    var $tableHeadRow_filter = $("<tr></tr>");
+                    for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
+                        $tableHeadRow_filter.append($("<th></th>").html(
+                            '<input type="text" id="col_f-' + headerIdx + '" placeholder="filter column" />'));
+                        $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function(ee) {
+                            var i = parseInt(ee.target.id.substr(6));
+                            CsvToHtmlTable_DataTable.column(i).search(this.value).draw();
+                        }
+                        $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onkeyup =
+                            $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange
                     }
-                    $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onkeyup =
-                        $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange
+                    $tableHead.append($tableHeadRow_filter);
                 }
-
-                $tableHead.append($tableHeadRow_filter);
 
                 $tableHead.append($tableHeadRow);
 
@@ -72,7 +69,7 @@ CsvToHtmlTable = {
                 }
                 $table.append($tableBody);
 
-                data_table_g = $table.DataTable(datatables_options);
+                CsvToHtmlTable_DataTable = $table.DataTable(datatables_options);
 
                 if (allow_download) {
                     $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
