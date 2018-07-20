@@ -35,6 +35,7 @@ CsvToHtmlTable = {
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     $tableHeadRow_filter.append($("<th></th>").html('<input type="text" placeholder="filter column" />'));
                     $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function() { console.log("khkjhk") }
+                }
 
                 $tableHead.append($tableHeadRow_filter);
 
