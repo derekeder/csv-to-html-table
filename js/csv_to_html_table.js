@@ -36,14 +36,15 @@ CsvToHtmlTable = {
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     $tableHeadRow_filter.append($("<th></th>").html('<input type="text" placeholder="filter column" />'));
                     $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function() {
+                        // Thanks to https://stackoverflow.com/questions/5913927
+                        // get column number
+                        var i = 0;
+                        var th_e = this.parentNode;
+                        while( (th_e = th_e.previousSibling) != null ) { i++ }
                         console.log("column filter")
-                        console.log(headerIdx)
+                        console.log(i)
                         console.log(this.value)
-                        if ( data_table_g.column(headerIdx).search() !== this.value ) {
-                            data_table_g
-                                .column(headerIdx)
-                                .search( this.value )
-                                .draw();
+                        data_table_g.column(i).search( this.value ).draw();
                         }
                     }
                 }
