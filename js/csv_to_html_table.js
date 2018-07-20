@@ -50,7 +50,6 @@ CsvToHtmlTable = {
                 $tableHead.append($tableHeadRow);
 
                 $table.append($tableHead);
-
                 var $tableBody = $("<tbody></tbody>");
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
