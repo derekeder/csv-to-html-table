@@ -30,8 +30,15 @@ CsvToHtmlTable = {
                     $tableHeadRow.append($("<th></th>").text(csvHeaderRow[headerIdx]));
                 }
                 $tableHead.append($tableHeadRow);
-
                 $table.append($tableHead);
+
+                var $tableHeadRow_filter = $("<tr></tr>");
+                for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
+                    $tableHeadRow_filter.append($("<th></th>").html('<input type="text" placeholder="filter column" />'));
+                }
+                $tableHead.append($tableHeadRow_filter);
+                $table.append($tableHead_filter);
+
                 var $tableBody = $("<tbody></tbody>");
 
                 for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
