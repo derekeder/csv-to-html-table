@@ -34,7 +34,17 @@ CsvToHtmlTable = {
                 var $tableHeadRow_filter = $("<tr></tr>");
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     $tableHeadRow_filter.append($("<th></th>").html('<input type="text" placeholder="filter column" />'));
-                    $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function() { console.log("khkjhk") }
+                    $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function() {
+                        console.log("column filter")
+                        console.log(headerIdx)
+                        console.log(this.value)
+                        if ( $table.column(headerIdx).search() !== this.value ) {
+                            $table
+                                .column(headerIdx)
+                                .search( this.value )
+                                .draw();
+                        }
+                    }
                 }
 
                 $tableHead.append($tableHeadRow_filter);
