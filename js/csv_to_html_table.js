@@ -44,8 +44,7 @@ CsvToHtmlTable = {
                         console.log("column filter")
                         console.log(i)
                         console.log(this.value)
-                        data_table_g.column(i).search( this.value ).draw();
-                        }
+                        data_table_g.column(i).search(this.value).draw();
                     }
                 }
 
