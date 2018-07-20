@@ -39,8 +39,8 @@ CsvToHtmlTable = {
                         console.log("column filter")
                         console.log(headerIdx)
                         console.log(this.value)
-                        if ( $table.column(headerIdx).search() !== this.value ) {
-                            $table
+                        if ( data_table_g.column(headerIdx).search() !== this.value ) {
+                            data_table_g
                                 .column(headerIdx)
                                 .search( this.value )
                                 .draw();
