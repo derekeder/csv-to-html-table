@@ -34,7 +34,7 @@ CsvToHtmlTable = {
                 var $tableHeadRow_filter = $("<tr></tr>");
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     $tableHeadRow_filter.append($("<th></th>").html(
-                        '<input type="text" id="col_f-' + headerIdx '" placeholder="filter column" />'));
+                        '<input type="text" id="col_f-' + headerIdx + '" placeholder="filter column" />'));
                     $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function(arg1, arg2, arg3) {
                         // Thanks to https://stackoverflow.com/questions/5913927
                         // get column number
