@@ -38,15 +38,9 @@ CsvToHtmlTable = {
                     $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function(arg1, arg2, arg3) {
                         // Thanks to https://stackoverflow.com/questions/5913927
                         // get column number
-                        var i = 0;
-                        var th_e = this.parentNode;
-                        while( (th_e = th_e.previousSibling) != null ) { i++ }
+                        var i = parseInt(arg1.target.id.substr(6));
                         console.log("column filter")
                         console.log(i)
-                        console.log(headerIdx)
-                        console.log(arg1.target.id)
-                        console.log(arg1.target.id.substr(6))
-                        console.log(parseInt(arg1.target.id.substr(6)))
                         console.log(this.value)
                         data_table_g.column(i).search(this.value).draw();
                     }
