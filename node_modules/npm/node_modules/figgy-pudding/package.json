@@ -1,0 +1,73 @@
+{
+  "_from": "figgy-pudding@3.2.0",
+  "_id": "figgy-pudding@3.2.0",
+  "_inBundle": true,
+  "_integrity": "sha512-S2gSvqcqkI4sk+dI3ykKllfEg88dL5cXM0QPT4z9UbOkNygqec8/99d0VB3ikZ7u1/QC5l4e1YJPWvoUFuRVkg==",
+  "_location": "/npm/figgy-pudding",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "figgy-pudding@3.2.0",
+    "name": "figgy-pudding",
+    "escapedName": "figgy-pudding",
+    "rawSpec": "3.2.0",
+    "saveSpec": null,
+    "fetchSpec": "3.2.0"
+  },
+  "_requiredBy": [
+    "/npm",
+    "/npm/cacache",
+    "/npm/libnpmhook",
+    "/npm/libnpmhook/npm-registry-fetch"
+  ],
+  "_resolved": "https://registry.npmjs.org/figgy-pudding/-/figgy-pudding-3.2.0.tgz",
+  "_shasum": "464626b73d7b0fc045a99753d191b0785957ff73",
+  "_spec": "figgy-pudding@3.2.0",
+  "_where": "/Users/zkat/Documents/code/work/npm",
+  "author": {
+    "name": "Kat Marchán",
+    "email": "kzm@sykosomatic.org"
+  },
+  "bugs": {
+    "url": "https://github.com/zkat/figgy-pudding/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Delicious, festive, cascading config/opts definitions",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "standard-version": "^4.4.0",
+    "tap": "^12.0.1",
+    "weallbehave": "^1.2.0",
+    "weallcontribute": "^1.0.8"
+  },
+  "files": [
+    "*.js",
+    "lib"
+  ],
+  "homepage": "https://github.com/zkat/figgy-pudding#readme",
+  "keywords": [
+    "config",
+    "options",
+    "yummy"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "figgy-pudding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkat/figgy-pudding.git"
+  },
+  "scripts": {
+    "postrelease": "npm publish && git push --follow-tags",
+    "prerelease": "npm t",
+    "pretest": "standard",
+    "release": "standard-version -s",
+    "test": "tap -J --coverage test/*.js",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+  },
+  "version": "3.2.0"
+}
