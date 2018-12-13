@@ -105,7 +105,7 @@ Want to embed your nifty table on your website? You can use an [iframe](http://w
 
 ## Dependencies
 
-* [Bootstrap](http://getbootstrap.com/) - Responsive HTML, CSS and Javascript framework
+* [Bootstrap 4](http://getbootstrap.com/) - Responsive HTML, CSS and Javascript framework
 * [jQuery](https://jquery.com/) - a fast, small, and feature-rich JavaScript library
 * [jQuery CSV](https://github.com/evanplaice/jquery-csv/) - Parse CSV (Comma Separated Values) to Javascript arrays or dictionaries.
 * [DataTables](http://datatables.net/) - add advanced interaction controls to any HTML table.
