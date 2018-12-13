@@ -133,6 +133,7 @@ Report it here: https://github.com/derekeder/csv-to-html-table/issues
 * [ychaouche](https://github.com/ychaouche) - [javascript tag fixes](https://github.com/derekeder/csv-to-html-table/pull/30)
 * [Freddy Martinez](https://github.com/b-meson) - [localized javascript libraries](https://github.com/derekeder/csv-to-html-table/pull/17)
 * [Sergey Ponomarev](https://github.com/stokito) - [CSV escaped in HTML output](https://github.com/derekeder/csv-to-html-table/pull/60)
+* [djibe](https://github.com/djibe) - [Bootstrap 4 and latest DataTables](https://github.com/djibe/csv-to-html-table)
 
 ## Note on Patches/Pull Requests
  
