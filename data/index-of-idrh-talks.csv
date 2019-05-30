@@ -1,126 +1,200 @@
 "AUTHOR","TITLE","DATE","KEYWORDS","URL"
-
-Jonathan Lamb,Using Python in Humanities Research, 4/22/19,"Digital Humanities",https://www.youtube.com/watch?v=CkOAulhdqdo 
-Anastasia Salter,Not Just Point & Click: The Poetics of Choice (& Resistance) in Narrative Games,09/29/2017,"Video Games,Digital Storytelling,Politics,Resistance,Poetics",https://youtu.be/jiIkC69sB_g
-Joseph Erb,Community Strength in Storytelling: Bringing Cherokee Stories into Digital Media,09/29/2017,"Indigenous Communities,Indigenous Stories,Oral Stories,Digital Storytelling,Film,Animation,Social Media,Cherokee Language,Localization,Narratives",https://youtu.be/ASij08UNo7I
-Carla Iacchelli,Our Voices: Digital Storytelling at Edmonton Public Library,09/27/2017,"Digital Storytelling,Indigenous Communities,Public Libraries,Edmonton,Indigenous Stories",https://youtu.be/yGHmgdoREDU
-Zachary Coble,Web Hosting: Creating Infrastructure for Digital Storytelling,09/27/2017,"Digital Storytelling,Infrastructure,Web Hosting,Omeka,Information Technology,Libraries",https://youtu.be/TgTWVowwkx0
-Matthew Kleinmann,Community-wide Storytelling for Mobilization and Neighborhood Development,09/27/2017,"Digital Storytelling,Community Storytelling,Neighborhood Development,Architecture,Design,Student Showcase",https://youtu.be/7lTb02-XZ8A
-"Kerry Wynn,Tom Averill",The Pedagogy of Digital Storytelling in an Undergraduate Research Course,09/27/2017,"Digital Storytelling,Undergraduates,Pedagogy,Teaching,Kansas,Classroom Teaching",https://youtu.be/6ZxSIFikRhM
-"Lynne Walters,Martha Green","Making research 'come alive' through digital storytelling",09/27/2017,"Digital Storytelling,Undergraduates,Pedagogy,Teaching,Education",https://youtu.be/Erk_uxK6fzs
-"Katina Bitsicas,Joanna Hearne,Nick Potter,Jenny Bossaller,Sarah Buchanan,Twyla Gibson,Rose Marra",Storytelling in Data and Digital Media: Research and Curricular Innovations,09/27/2017,"Digital Storytelling,Pedagogy,Curriculum,Education,University of Missouri",https://youtu.be/zzDWccM88Rk
-"Danyelle Greene,Adrienne Frank,An Sasala",Who/Where/When/Why/How Tells the Story,09/27/2017,"Digital Storytelling,Project ArcLight,Mammy Characters,Film,Indigenous Film Exhibition,Comic Book Distribution,Digital Platforms,Digital Publishing,Infrastructure,Student Showcase",https://youtu.be/PKTvfiOSzzw
-"Clarisse Barbier,Van Kelly","Transmission of Heritages,Faces & Obsessions in Colonial/Decolonial Storytelling",09/27/2017,"Onitsha,Voyant,Text Analysis,Digital Storytelling,Postcolonial Literature,Le Clézio,Student Showcase",https://youtu.be/AqdcdjwxXX4
-"Germaine Halegoua,Dhanashree Thorat,Anastasia Salter,Joseph Erb",DH Forum/Digital Storytelling: Discussion and Response Session,09/27/2017,"Digital Storytellilng",https://youtu.be/2rIUJq3Laa4
-Jeffrey Rydberg-Cox, "(Workshop) Thinking About Networks in Literature: A Hands-On Conversation", 02/03/2017, "In this workshop, we will look at several articles that discuss ways that network analysis can be applied to literary texts.", http://idrh.ku.edu/digital-jumpstart-workshops-2017
-Christy Hyman,Reconstructing Moses Grandy’s World: The Interplay of GIS With Enslaved Narratives,02/20/2017,"GIS, slavery, history",https://www.youtube.com/watch?v=7QRPDPeITPU
-Musa Wakhungu Olaka,Mapping Testimonies of Children Who Survived the 1994 Genocide in Rwanda,01/25/2017,"Rwanda genocide, history, testimonies, GIS",https://www.youtube.com/watch?v=FOMB4_IEJ0s
-Cole Stratton,"Commerce by Design: Beacons, Smartphones, & the Production of Networked Commerce",10/01/2016,"Smartphones, design, augmented reality",https://www.youtube.com/watch?v=-DlEVnnoMWM
-Ani Kokobobo,Challenging Napoleonic Mapmakers: Using Digital Technologies to Uncover Tolstoy’s Decentralized Literary Cartography in War and Peace,10/01/2016,"Literature, Tolstoy, Russia, literary cartography, mapping",https://youtu.be/-DlEVnnoMWM?t=14m
-S. Wright Kennedy,The New Orleans Mortality Project: Using Spatial Analysis and Historical GIS to Uncover Nineteenth-Century Disease Terrains and Assess the Impact on Community Development,10/01/2016,"GIS, History, Disease, New Orleans",https://www.youtube.com/watch?v=poXkLPPeZq4
-Karen Sieber,Visualizing the Red Summer of 1919,10/01/2016,"GIS, Civil Rights",https://youtu.be/poXkLPPeZq4?t=16m57s
-Johanna Drucker,Digital Humanities: A Status Report with Questions,10/29/2015,Digital humanities studies,https://www.youtube.com/watch?v=GWeRqhK_8_U
-Alison Link,Decoding the Database: A Critical Analysis of Open Source GIS Tools for Humanistic Mapping,10/01/2016,"GIS, mapping, databases",https://www.youtube.com/watch?v=Lrx5tmybrHI
-Danny Jauregu,Resisting Queer Erasure: Counter-Mapping As Artistic Strategy,10/01/2016,"Queer art, mapping, Los Angeles",https://youtu.be/Lrx5tmybrHI?t=17m12s
-Musa Wakhungu Olaka,Deep Mapping of Spatial Data in Testimonies of Children Who Survived the 1994 Genocide in Rwanda,10/01/2016,"Rwanda genocide, testimonies, GIS",https://youtu.be/Lrx5tmybrHI?t=30m47s
-"Louis Epstein, Emily Hynes, Zhizhi Stella Li, Carolyn Nuelle, Samuel Parker",The Musical Geography of 1920s Paris,10/01/2016,"Music, mapping, France",https://www.youtube.com/watch?v=mbdjZl4CZ7k
-Roopika Risam,Digital Humanities in (Other) Contexts,10/01/2016,"Digital humanities studies, decolonization",https://www.youtube.com/watch?v=NM1bAJfx11U
-Philip Saperstein,New Technologies and Old Things,09/19/2016,"3D modelling, History, Archeology, Ancient Greece",https://www.youtube.com/watch?v=JWLPLUxtRJw
-Nicole Starosielski,The Network Map Under Water,09/30/2016,"Networks, Internet, Infrastructure",https://www.youtube.com/watch?v=AONHAswYRrE
-Maylei Blackwell,Mapping Indigenous LA: Place-Making Through Digital Storytelling,10/01/2016,"mapping, Indigenous studies, Los Angeles, Digital Storytelling",https://www.youtube.com/watch?v=p6rAuIAhdAU
+Jonathan P. Lamb,Using Python in Humanities Research,4/22/2019,"Python, Shakespeare",https://www.youtube.com/watch?v=CkOAulhdqdo
+Keon Pettiway,"Recovering and Experiencing Civil Rights History: Digital Humanities at the Juncture of Rhetoric, Black Studies, and Design",4/15/2019,"Civil Rights History, Digital Humanities",https://youtu.be/uOGTNrEdVkg
+Elspeth Healey,Facilitating an Exchange of Ideas on Digital Scholarship,4/12/2019,"Digital Humanities",https://www.youtube.com/watch?v=-LaTGr1lSEQ
+Whitney Sperrazza,Engaging Students through Digital Pedagogy,4/5/2019,"Digital Pedagogy",https://www.youtube.com/watch?v=Zlrzkmn3NRo
+Paloma Vargas Montes,Building DH Scholarship in Northern Mexico: The Case of the Tecnológico de Monterrey’s Master in Digital Humanities,4/2/2019,"Digital Humanities Scholarship, Mexico",https://youtu.be/Mho9z-7NhlQ
+Mariah Crystal,Creating Scholarly Networks Through the Digital Humanities,3/29/2019,"Digital Humanities Networks",https://www.youtube.com/watch?v=UbdGHIw8cc0
+Brian Rosenblum,Supporting a Campus Culture of Digital Scholarship,3/20/2019,"Campus Culture",https://www.youtube.com/watch?v=EAGT7--SbRc
+Germaine Halegoua,Korean “foreign travel selfies” as Contested Placemaking Practices,2/18/2019,"Placemaking Practices, Korea",https://idrh.ku.edu/seminar
+Dave Tell,The Emmett Till Memory Project,1/29/2019,"Emmett Till",https://idrh.ku.edu/seminar
+Jonathan Lamb,Computational Philology,12/5/2018,"Digital Humanities, Computational Philology",https://idrh.ku.edu/seminar
+"James Miller, Robert Hickerson",Data Visualization and Storytelling: Revealing the Hidden Stories in the Spencer Museum of Art,11/19/2018,"Spencer Museum of Art, Data Visualization",https://idrh.ku.edu/seminar
+Ani Kokobobo,Using Digital Technologies to Uncover Spatial Storytelling in Tolstoy's War and Peace,10/29/2018,"Spatial Storytelling",https://idrh.ku.edu/seminar
+"Spencer Keralis, Melissa Gonzales",Documenting Local History with Interactive Timelines,10/6/2018,"Interactive Timelines",https://idrh.ku.edu/digital-frontiers-2018
+Zach Coble,Collecting Data with Web Scraping,10/6/2018,"Web Scraping",https://idrh.ku.edu/digital-frontiers-2018
+"xtine burrough, Sabrina Starnaman",An Archive of Unnamed Women,10/6/2018,"Digital Humanities, History, Women",https://idrh.ku.edu/digital-frontiers-2018
+Micah Bateman,TWARC It! Workshop: Harvesting and Preserving Twitterature,10/6/2018,"Twitter, Social Media",https://idrh.ku.edu/digital-frontiers-2018
+"Alison Langmead, Josh Ellenbogen",Forms of Equivelance: Bertillonnage and the History of Information Management,10/5/2018,"Information Management",https://idrh.ku.edu/digital-frontiers-2018
+Erin O'Quinn,Remaking Space: A Geo-spatial Visualization of the Irwinville Farms Community,10/5/2018,"Irwinville Farms, Geography",https://idrh.ku.edu/digital-frontiers-2018
+Joshua Miner,Indigenous Computational Bodies and Settler-Colonial Violence,10/5/2018,"Colonialism, Indigenous Studies",https://idrh.ku.edu/digital-frontiers-2018
+"Chad Uhl, Philip Stinson",Digitally Reviving a Numismatic Collection: Pedagogy and Scholarship,10/5/2018,"Pedagogy, Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+Samantha Dodd,Sunny Side Up: How GLAM Wiki Saved My Bacon,10/5/2018,"Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Philip Rusche, Ed Nagelhout","Revising the Textbook(s): Open Access, Open Pedagogy, Open Communities",10/5/2018,"Pedagogy, Open Access",https://idrh.ku.edu/digital-frontiers-2018
+"Lorie Vanchena, Ashley Yoder, Drew Crist",WWI Immigrant Poetry: A Digital Humanities Project,10/5/2018,"World War I, Immigrant, Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Rasheedah Phillips, Esq.","Communal, Quantum and Afrofutures: Time & Memory Mapping in Marginalized Communities",10/5/2018,"Afrofuturism, Time, Memory",https://idrh.ku.edu/digital-frontiers-2018
+"Gordon Carlson, Matt Clarke, Nicholas Caporusso, Alex Perez, Chris Jacobs, Ella Ding",Best of Both Worlds: Combining 360 Video and Augmented Reality for Understanding and Creative Narrative,10/5/2018,"Augmented Reality, Technology, Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+Nicholas Kelly,Exploring Aesthetic Communities with Text Mining and Data Visualization: The Program Era Project and the Iowa Writers' Workshop,10/5/2018,"Text Mining, Data Visualization",https://idrh.ku.edu/digital-frontiers-2018
+"Margaret Terrill, Jonathan McMichael, Rafia Mirza",Overcoming the Curse of Knowledge with Cross-disciplinary Collaboration: Applying User Experience Approaches to Digital Humanities,10/5/2018,"Interdisciplinary Studies",https://idrh.ku.edu/digital-frontiers-2018
+"Lyndsay Bratton, Catherine Benoît, Phillip Barnes, Sufia Uddin",Collaborative Intelligence: Building a Community of Practice in Digital Scholarship at a Liberal Arts College,10/5/2018,"Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Jessica Elam, Joshua Jackson, Sarah Evans, Edwin Lohmeyer","Building Supportive Communities: Methods and Perspectives on Promoting Inclusivity, Intersectionality, and Interdisciplinarity in the Digital Humanities",10/5/2018,"Community Building, Inclusivity, Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Peggy Lindner, Kristina Neumann",Finding Connection in Ancient Syria,10/4/2018,"Syria, History",https://idrh.ku.edu/digital-frontiers-2018
+"Antoinette Moore, Spencer Keralis",Lived Experience: Using Digital Oral Histories to Teach Compassionate Care,10/4/2018,"Digital History, Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Liz King, Wade Martin",From VHS to MP4: Improving Access to 40 Years of Literary Recordings,10/4/2018,"Analog to Digital, Technology, Video",https://idrh.ku.edu/digital-frontiers-2018
+"Lee Fulton, Mike Mease, Stephany Seay, Jesse Crocker",Endangered Species Act: Documentation of Wildlife Migration in a Geographic Information System,10/4/2018,"Biology, Ecology, Geography, Wildlife",https://idrh.ku.edu/digital-frontiers-2018
+Michael DeAnda,"Bulge Lab: An Alternative Reality Game About Body Image, Masculinity, and Viruses",10/4/2018,"Video games, game studies, electronic literature",https://idrh.ku.edu/digital-frontiers-2018
+"Shane Lynch, Guillermina Pena-Sandoval, Rain Charger, Tweesna Rose Mills",Voices of Resilience,10/4/2018,"Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Katherine Knowles, Jessica DeSpain, Kristine Hildebrandt, Jill Anderson",Digital Community Engagement at a Regional University,10/4/2018,"Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Linda Reynolds, Perky Beisel, Kelley Snowden",Dipping Vats and Goat Roping: Voices from Small Places,10/4/2018,"Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+"Steven Ramsay, Brian Pytlik-Zillig, Susan Wiesner, Rommie Stalnaker",Digital Humanities and the Performing Arts: A Collaboration,10/4/2018,"Performing Arts, Interdisciplinary Studies",https://idrh.ku.edu/digital-frontiers-2018
+"An Sasala, Mariah Crystal, Charlesia McKinnery, Sierra Watt",Feminist Use of Digital Humanities: Grad Student Appraoches and Perspectives,10/4/2018,"Feminism, Digital Humanities, Graduate Students",https://idrh.ku.edu/digital-frontiers-2018
+Lauren Klein,"Data Feminism: Community, Allyship, and Action in the Digital Humanities",10/4/2018,"Data, Digital Humanities",https://idrh.ku.edu/digital-frontiers-2018
+Dot Porter,The Uncanny Valley and the Ghost in the Machine: A Discussion of Analogies for Thinking About Digitized Medieval Manuscripts,9/17/2018,"Uncanny, Medieval, History",https://idrh.ku.edu/seminar
+"Maryemma Graham, Arnab Chakraborty, Christopher Peace",Embracing the Digital Humanities: Digital Divide or Digital Inclusion,4/16/2018,"Inclusion, Digital Humanities",https://idrh.ku.edu/seminar
+Nina Vyatkina,"Collecting, Annotating, and Analyzing a Second Language Acquisition Corpus",4/4/2018,"Language Acquisition",https://idrh.ku.edu/seminar
+Bonnie Lynn-Sherow,"The Digital Natives Are Not Restless, They Are Not Even Native",2/19/2018,"Digital History, Native",https://idrh.ku.edu/seminar
+Dhanashree Thorat,Postcolonial Imperatives in the Digital Age,1/29/2018,"Colonialism, Indigenous Studies",https://idrh.ku.edu/seminar
+Whitney Sperrazza,Touching on Archival Absence: Early Modern Women and the Digital Humanities,12/6/2017,"Archives, Decolonization, History, Human rights, Women",https://idrh.ku.edu/seminar
+" Lorie Vanchena, Andrew Crist",The WWI Immigrant Poetry Digital Humanities Project,11/20/2017,"World War I, Immigrant, Digital Humanities, Poetry",https://idrh.ku.edu/seminar
+Anupam Basu,Spenser and Historical Stylometrics Medieval and Early Modern,10/6/2017,"Medieval, History, Modern, Stylometrics",https://idrh.ku.edu/seminar
+Anastasia Salter,Not Just Point & Click: The Poetics of Choice (& Resistance) in Narrative Games,9/29/2017,"Video Games, Digital Storytelling, Politics, Resistance, Poetics",https://youtu.be/jiIkC69sB_g
+Carla Iacchelli,Our Voices: Digital Storytelling at Edmonton Public Library,9/29/2017,"Digital Storytelling, Indigenous Communities, Public Libraries, Edmonton, Indigenous Stories",https://youtu.be/yGHmgdoREDU
+"Zachary Coble, Rebecca Amato, Bruno Guaraná",Web Hosting: Creating Infrastructure for Digital Storytelling,9/29/2017,"Digital Storytelling, Infrastructure, Web Hosting, Omeka, Information Technology, Libraries",https://youtu.be/TgTWVowwkx0
+Matthew Kleinmann,Community-wide Storytelling for Mobilization and Neighborhood Development,9/29/2017,"Digital Storytelling, Community Storytelling, Neighborhood Development, Architecture, Design, Student Showcase",https://youtu.be/7lTb02-XZ8A
+"Kerry Wynn, Tom Averill",The Pedagogy of Digital Storytelling in an Undergraduate Research Course,9/29/2017,"Digital Storytelling, Undergraduates, Pedagogy, Teaching, Kansas, Classroom Teaching",https://youtu.be/6ZxSIFikRhM
+"Lynne Walters, Martha Green",Making research 'come alive' through digital storytelling,9/29/2017,"Digital Storytelling, Undergraduates, Pedagogy, Teaching, Education",https://youtu.be/Erk_uxK6fzs
+"Katina Bitsicas, Joanna Hearne, Nick Potter, Jenny Bossaller, Sarah Buchanan, Twyla Gibson, Rose Marra",Storytelling in Data and Digital Media: Research and Curricular Innovations,9/29/2017,"Digital Storytelling, Pedagogy, Curriculum, Education, University of Missouri",https://youtu.be/zzDWccM88Rk
+"Danyelle Greene, Adrienne Frank, An Sasala",Who/Where/When/Why/How Tells the Story,9/29/2017,"Digital Storytelling, Project ArcLight, Mammy Characters, Film, Indigenous Film Exhibition, Comic Books, Digital Platforms, Digital Publishing, Infrastructure, Student Showcase",https://youtu.be/PKTvfiOSzzw
+"Clarisse Barbier, Van Kelly","Transmission of Heritages, Faces, & Obsessions in Colonial/Decolonial Storytelling",9/29/2017,"Onitsha, Voyant, Text Analysis, Digital Storytelling, Postcolonial Literature, Le Clézio, Student Showcase",https://youtu.be/AqdcdjwxXX4
+"Germaine Halegoua, Dhanashree Thorat, Anastasia Salter, Joseph Erb",DH Forum/Digital Storytelling: Discussion and Response Session,9/29/2017,"Digital Storytellilng",https://youtu.be/2rIUJq3Laa4
+Joseph Erb,Community Strength in Storytelling: Bringing Cherokee Stories into Digital Media,9/29/2017,"Indigenous Communities, Indigenous Stories, Oral Stories, Digital Storytelling, Film, Animation, Social Media, Cherokee Language, Localization, Narratives",https://youtu.be/ASij08UNo7I
+Kim Gallon,Data and the Recovery of Black Humanity in the Digital Humanities,9/28/2017,"Data, Digital Humanities, African American Studies",https://idrh.ku.edu/dhforum2017
+Dave Tell,The Emmett Till Memory Project,9/28/2017,"Emmett Till, African American, Race, Racism, Digital Humanities",https://idrh.ku.edu/dhforum2017
+Anastasia Salter,Twine 2.0: Building Games and Interactive Narratives,9/28/2017,"Video Games, Interactive, Narrative",https://idrh.ku.edu/dhforum2017
+Dennis Tenen,Sustainable Authorship in Plain Text,9/28/2017,"Digital Humanities",https://idrh.ku.edu/dhforum2017
+"Alexsandra Mitchell, Sherry Williams",Everyday Archives: The Black Experience in Kansas,9/28/2017,"Digital Humanities, Black Experience, Kansas, African American Studies",https://idrh.ku.edu/dhforum2017
+Joshua Miner,Narrative Mechanics in 2D Game Space,9/28/2017,"Narrative, Game Design, Game Theory",https://idrh.ku.edu/dhforum2017
+Andy Stuhl,An Introduction to Geospatial Timeline Tools: Neatline & Itinerary,9/28/2017,"Geography, Digital Humanities, Time, Narrative",https://idrh.ku.edu/dhforum2017
+Paul Thomas,Maintaining the Digital Site of Knowledge: How to Become a Wikipedia Editor,9/28/2017,"Wikipedia, Online Data, Digital Humanities",https://idrh.ku.edu/dhforum2017
+J. Stephen Downie,HathiTrust Research Center: Strategic Approaches to Opening Research Opportunities on Closed Data,9/18/2017,"Digital Humanities",https://idrh.ku.edu/seminar
+Kristin Huffman Lanzoni,A Portrait of Venice: a ‘Virtually’ Digital Exhibition,4/17/2017,"Venice, Italy, Europe, Virtual Exhibition",https://idrh.ku.edu/seminar
+"Brian Rosenblum, Phil Stinson",De-centering Centers of Digital Humanities,3/15/2017,"Digital Humanities, IDRH",https://idrh.ku.edu/seminar
+Christy Hyman,Reconstructing Moses Grandy’s World: The Interplay of GIS With Enslaved Narratives,2/20/2017,"GIS, slavery, history",https://www.youtube.com/watch?v=7QRPDPeITPU
+Musa Wakhungu Olaka,Mapping Testimonies of Children Who Survived the 1994 Genocide in Rwanda,1/25/2017,"Rwanda genocide, history, testimonies, GIS",https://www.youtube.com/watch?v=FOMB4_IEJ0s
+Joshua Miner,Critical Protocols in Indigenous Game Design,11/21/2016,"Game Design, Indigenous Studies",https://idrh.ku.edu/seminar
 Jessica DeSpain,Digital Humanities Pedagogy in Theory and Practice,10/17/2016,"Pedagogy, Digital humanities studies",https://www.youtube.com/watch?v=5G51uFZ6jq0
-"Kip Haaheim, Greg Haynes, Jeremy Wohletz",Musical Performance: Contrails,10/01/2016,"Musical Performance, Spaces and Places",https://www.youtube.com/watch?v=aweloZwJdfg
-Miriam Posner,Head-and-Shoulder Hunting in the Americas: Walter Freeman and the Visual Culture of Lobotomy,01/26/2016,"History, Psychiatry, image mining",https://www.youtube.com/watch?v=I7C2KOgfbQU
-Lori Emerson,Lab-based Tinkering and Open-Ended Play in the Era of the Posthumanities,11/16/2015,Media Archeology,https://www.youtube.com/watch?v=GCPkbGOfFTA
-Kim Christen Withey,Push Pause: Slowing down digital humanities practices,09/26/2015,"Digital humanities studies, Indigenous Digital Studies, Mukurtu, Infrastructure",https://www.youtube.com/watch?v=q0kW6swgM5o
+Cole Stratton,"Commerce by Design: Beacons, Smartphones, & the Production of Networked Commerce",10/1/2016,"Smartphones, design, augmented reality",https://www.youtube.com/watch?v=-DlEVnnoMWM
+Ani Kokobobo,Challenging Napoleonic Mapmakers: Using Digital Technologies to Uncover Tolstoy’s Decentralized Literary Cartography in War and Peace,10/1/2016,"Literature, Tolstoy, Russia, literary cartography, mapping",https://youtu.be/-DlEVnnoMWM?t=14m
+S. Wright Kennedy,The New Orleans Mortality Project: Using Spatial Analysis and Historical GIS to Uncover Nineteenth-Century Disease Terrains and Assess the Impact on Community Development,10/1/2016,"GIS, History, Disease, New Orleans",https://www.youtube.com/watch?v=poXkLPPeZq4
+Karen Sieber,Visualizing the Red Summer of 1919,10/1/2016,"GIS, Civil Rights",https://youtu.be/poXkLPPeZq4?t=16m57s
+Alison Link,Decoding the Database: A Critical Analysis of Open Source GIS Tools for Humanistic Mapping,10/1/2016,"GIS, mapping, databases",https://www.youtube.com/watch?v=Lrx5tmybrHI
+Danny Jauregu,Resisting Queer Erasure: Counter-Mapping As Artistic Strategy,10/1/2016,"Queer art, mapping, Los Angeles",https://youtu.be/Lrx5tmybrHI?t=17m12s
+Musa Wakhungu Olaka,Deep Mapping of Spatial Data in Testimonies of Children Who Survived the 1994 Genocide in Rwanda,10/1/2016,"Rwanda genocide, testimonies, GIS",https://youtu.be/Lrx5tmybrHI?t=30m47s
+"Louis Epstein, Emily Hynes, Zhizhi Stella Li, Carolyn Nuelle, Samuel Parker",The Musical Geography of 1920s Paris,10/1/2016,"Music, mapping, France",https://www.youtube.com/watch?v=mbdjZl4CZ7k
+Roopika Risam,Digital Humanities in (Other) Contexts,10/1/2016,"Digital humanities studies, decolonization",https://www.youtube.com/watch?v=NM1bAJfx11U
+Maylei Blackwell,Mapping Indigenous LA: Place-Making Through Digital Storytelling,10/1/2016,"mapping, Indigenous studies, Los Angeles, Digital Storytelling",https://www.youtube.com/watch?v=p6rAuIAhdAU
+"Kip Haaheim, Greg Haynes, Jeremy Wohletz",Musical Performance: Contrails,10/1/2016,"Musical Performance, Spaces and Places",https://www.youtube.com/watch?v=aweloZwJdfg
+Nicole Starosielski,The Network Map Under Water,9/30/2016,"Networks, Internet, Infrastructure",https://www.youtube.com/watch?v=AONHAswYRrE
+Philip Saperstein,New Technologies and Old Things,9/19/2016,"3D modelling, History, Archeology, Ancient Greece",https://www.youtube.com/watch?v=JWLPLUxtRJw
+Kathryn A. Rhine,Global Medical Humanities and the Horizons of Digital Health Innovation,8/29/2016,"Digital Humanities, Healthcare, Innovation, Medical",https://idrh.ku.edu/seminar
+Jennifer Guiliano,Recovering the Past through Digital History,4/18/2016,"Digital History, Digital Humanities",https://idrh.ku.edu/seminar
+Andrew Lison,"Digital Encryption, or, Messages Against the Medium",3/21/2016,"Digital Humanities, Security, Communication",https://idrh.ku.edu/seminar
+Perry Alexander,Trusting Data: A Technologist’s Perspective,2/15/2016,"Technology, Technologist, Digital Humanities",https://idrh.ku.edu/seminar
+Miriam Posner,Head-and-Shoulder Hunting in the Americas: Walter Freeman and the Visual Culture of Lobotomy,1/25/2016,"History, Psychiatry, image mining",https://www.youtube.com/watch?v=I7C2KOgfbQU
+Lori Emerson,Lab-based Tinkering and Open-Ended Play in the Era of the Posthumanities,11/16/2015,"Media Archeology",https://www.youtube.com/watch?v=GCPkbGOfFTA
+Johanna Drucker,Digital Humanities: A Status Report with Questions,10/29/2015,"Digital humanities studies",https://www.youtube.com/watch?v=GWeRqhK_8_U
 Heather Richards-Rissetto,"3DGIS for Discourse, Analysis, and Interpretations of Ancient Maya Architecture and Landscapes",10/19/2015,"3D modelling, GIS, Mayan civilization, Architecture",https://www.youtube.com/watch?v=-UB4p9dV484
-Pamella Lach,What is Digital Humanities and What's it doing in the Classroom? Toward a Digital Pedagogy,09/21/2015,"Pedagogy, Digital humanities studies",https://www.youtube.com/watch?v=wJgKu-kWntc
-Anita Say Chan,"Hacking Digital Universalism: Networked Memory, Data Wipes & Contesting the Deep Present",09/26/2015,"spaces, network, media, Latin America",https://www.youtube.com/watch?v=WgEMmgqOLus
-Jonathan Dettman,Digital Cuba: Problems and Possibilities,09/26/2015,"Cuba, Infrastructure",https://www.youtube.com/watch?v=nYUANxVgZZY
-Andy Stuhl,"Critical Making, Platform Politics and Open Source in the Study of Digital Artworks",09/26/2015,"Critical Making, Digital Arts",https://youtu.be/nYUANxVgZZY?t=15m10S
-Titilola Babalola,Decolonizing Digital Humanities: Africa in Perspective,09/26/2015,"Africa, Decolonization",https://youtu.be/nYUANxVgZZY?t=26m45s
-Miriam Peña,eLaboraHd: Project of Digital Experimentation,09/26/2015,"Mexico, Digital Humanities practices",https://youtu.be/nYUANxVgZZY?t=41m15s
-Jacqueline Wernimont,"Performing archives: sensitive data, social justice, and the performative frame",09/26/2015,"Archives, Social Justice, data sonficiation",https://www.youtube.com/watch?v=E86rIGjWsyY
-Rachel Mann,Up in Arms: The Collision of Intellectual Property and Collaborative Practices,09/26/2015,"Digital humanities and libraries, intellectual property",https://www.youtube.com/watch?v=kl34PscFXyw
-Steward Varner,The More the Merrier: Tapping into the Power of Librarians to Collaborate on Undergraduate Digital Humanities Assignments,09/26/2015,Digital humanities and libraries ,https://youtu.be/kl34PscFXyw?t=22m45s
-Andrew Rouner,Overlapping Hierarchies: Academic Libraries and Digital Humanities,09/26/2015,Digital humanities and libraries,https://youtu.be/kl34PscFXyw?t=11m50s
-David Birnbaum,The computer-assisted identification of meter and rhyme: How Russian is not English,09/26/2015,"Russian, English, Linguistics, Poetry",https://www.youtube.com/watch?v=OZ8yw5fSZ-g
-Jennifer Isasi,Visualizing History: The Malone Community Center,09/26/2015,"History, Digital Storytelling, Community Partnerships",https://www.youtube.com/watch?v=NVUCmBGj4FE
-Amy Earhart,Take Back the Narrative: Rethinking the History of Diverse Digital Humanities,09/26/2015,"History, Diversity, Digital Storytelling, Digital Recovery",https://www.youtube.com/watch?v=wPetMvIOMtE
-Amardeep Singh,The Archive Gap: the Digital Humanities and the Western Canon,09/26/2015,"Archives, open sources, Literary canon",https://www.youtube.com/watch?v=2X-NvZHz0VA
-Dhanashree Thorat,A Postcolonial Reading of (Digital) Archival Structure,09/26/2015,"Archives, Postcolonialism, 9/11 Archives",https://www.youtube.com/watch?v=82mnnUKMz1g
-T-Kay Sangwand,Decolonizing archival practice and diversifying the historical record through post-custodial human rights archiving,09/25/2015,"Archives, Decolonization, History, Human rights",https://www.youtube.com/watch?v=2MXUD8z1pWE
-Laura Mielke & Marty Baldwin,When a Project Demands to be Digital: Reflections by Reluctant DHers,08/31/2015,"Digital humanities studies, TEI, critical digital editions",https://www.youtube.com/watch?v=56HcUuV_Tag
-Matthew Wilkens,Neoliberalism & Literary Geography of the 20th Century: Statistical Models,04/22/2015,"Literature, English, American, Neoliberalism, mapping, text mining, corpus analysis",https://www.youtube.com/watch?v=eYtHDJYulKI
-Élika Ortega,Random Borges,03/25/2015,"Literature, Argentina, Jorge Luis Borges",https://www.youtube.com/watch?v=yQKggtoXcRg
-David Fredrick,Saeculum: Approaching (Ancient Roman) Culture Through Game Design,02/25/2015,"Game design, 3D modelling, History, Ancient Rome, ",https://www.youtube.com/watch?v=ap5EMT7DORk
-Anke Lüdeling,Diachronic Corpora and the Study of Language Change,01/26/2015,"Linguistics, History, language evolution, corpora",https://www.youtube.com/watch?v=X51r4PaM5Oo
-Sara Gregg and Rhonda Houser,Mapping the Complexity of Landscape and Law: Capturing the Elusive History of U.S. Homesteading,01/28/2015,"History, United States, Homesteading Act, mapping, law, environment",https://www.youtube.com/watch?v=8TtHvg5OQBU
-Amanda Gailey,The Case for Close Textual Attention in the Age of Text Glut,08/27/2014,"Close reading, pedagogy",https://www.youtube.com/watch?v=DEXXS4V76y8
-Matt Menzenski,The first part of 'text analysis' is 'text': Applying digital methods to an under-documented language,09/29/2014,"endangered languages, Tohono O’odham, indigenous studies",https://www.youtube.com/watch?v=aWSO-YWFycs
-Glen Worthey,Digital Humanities in the Library: Been Here Longer Than You May Think,09/11/2014,Digital humanities and libraries,https://www.youtube.com/watch?v=sV_FfKdLtEg
+Kim Christen Withey,Push Pause: Slowing down digital humanities practices,9/26/2015,"Digital humanities studies, Indigenous Digital Studies, Mukurtu, Infrastructure",https://www.youtube.com/watch?v=q0kW6swgM5o
+Anita Say Chan,"Hacking Digital Universalism: Networked Memory, Data Wipes & Contesting the Deep Present",9/26/2015,"spaces, network, media, Latin America",https://www.youtube.com/watch?v=WgEMmgqOLus
+Jonathan Dettman,Digital Cuba: Problems and Possibilities,9/26/2015,"Cuba, Infrastructure",https://www.youtube.com/watch?v=nYUANxVgZZY
+Andy Stuhl,Critical Making, Platform Politics and Open Source in the Study of Digital Artworks,9/26/2015,"Critical Making, Digital Arts",https://youtu.be/nYUANxVgZZY?t=15m10S
+Titilola Babalola,Decolonizing Digital Humanities: Africa in Perspective,9/26/2015,"Africa, Decolonization",https://youtu.be/nYUANxVgZZY?t=26m45s
+Miriam Peña,eLaboraHd: Project of Digital Experimentation,9/26/2015,"Mexico, Digital Humanities practices",https://youtu.be/nYUANxVgZZY?t=41m15s
+Jacqueline Wernimont,"Performing archives: sensitive data, social justice, and the performative frame",9/26/2015,"Archives, Social Justice, data sonficiation",https://www.youtube.com/watch?v=E86rIGjWsyY
+Rachel Mann,Up in Arms: The Collision of Intellectual Property and Collaborative Practices,9/26/2015,"Digital humanities and libraries, intellectual property",https://www.youtube.com/watch?v=kl34PscFXyw
+Steward Varner,The More the Merrier: Tapping into the Power of Librarians to Collaborate on Undergraduate Digital Humanities Assignments,9/26/2015,"Digital humanities and libraries ",https://youtu.be/kl34PscFXyw?t=22m45s
+Andrew Rouner,Overlapping Hierarchies: Academic Libraries and Digital Humanities,9/26/2015,"Digital humanities and libraries",https://youtu.be/kl34PscFXyw?t=11m50s
+David Birnbaum,The computer-assisted identification of meter and rhyme: How Russian is not English,9/26/2015,"Russian, English, Linguistics, Poetry",https://www.youtube.com/watch?v=OZ8yw5fSZ-g
+Jennifer Isasi,Visualizing History: The Malone Community Center,9/26/2015,"History, Digital Storytelling, Community Partnerships",https://www.youtube.com/watch?v=NVUCmBGj4FE
+Amy Earhart,Take Back the Narrative: Rethinking the History of Diverse Digital Humanities,9/26/2015,"History, Diversity, Digital Storytelling, Digital Recovery",https://www.youtube.com/watch?v=wPetMvIOMtE
+Amardeep Singh,The Archive Gap: the Digital Humanities and the Western Canon,9/26/2015,"Archives, open sources, Literary canon",https://www.youtube.com/watch?v=2X-NvZHz0VA
+Dhanashree Thorat,A Postcolonial Reading of (Digital) Archival Structure,9/26/2015,"Archives, Postcolonialism, 9/11 Archives",https://www.youtube.com/watch?v=82mnnUKMz1g
+T-Kay Sangwand,Decolonizing archival practice and diversifying the historical record through post-custodial human rights archiving,9/25/2015,"Archives, Decolonization, History, Human rights",https://www.youtube.com/watch?v=2MXUD8z1pWE
+Pamella Lach,What is Digital Humanities and What's it doing in the Classroom? Toward a Digital Pedagogy,9/21/2015,"Pedagogy, Digital humanities studies",https://www.youtube.com/watch?v=wJgKu-kWntc
+"Laura Mielke, Marty Baldwin",When a Project Demands to be Digital: Reflections by Reluctant DHers,8/31/2015,"Digital humanities studies, TEI, critical digital editions",https://www.youtube.com/watch?v=56HcUuV_Tag
+Matthew Wilkens,Neoliberalism & Literary Geography of the 20th Century: Computational and Statistical Models,4/22/2015,"Literature, English, American, Neoliberalism, mapping, text mining, corpus analysis",https://www.youtube.com/watch?v=eYtHDJYulKI
+Élika Ortega,Random Borges,3/25/2015,"Literature, Argentina, Jorge Luis Borges",https://www.youtube.com/watch?v=yQKggtoXcRg
+David Fredrick,Saeculum: Approaching (Ancient Roman) Culture Through Game Design,2/25/2015,"Game design, 3D modelling, History, Ancient Rome, ",https://www.youtube.com/watch?v=ap5EMT7DORk
+"Sara Gregg, Rhonda Houser",Mapping the Complexity of Landscape and Law: Capturing the Elusive History of U.S. Homesteading,1/28/2015,"History, United States, Homesteading Act, mapping, law, environment",https://www.youtube.com/watch?v=8TtHvg5OQBU
+Anke Lüdeling,Diachronic Corpora and the Study of Language Change,1/26/2015,"Linguistics, History, language evolution, corpora",https://www.youtube.com/watch?v=X51r4PaM5Oo
+Christopher Cantwell,Ghosts and our Machines: Digital Scholarship for Religious Studies,11/19/2014,"Religious Studies, Digital Humanities, Religion",https://idrh.ku.edu/seminar
 Mark Reaney,Virtual Reality on Stage,10/22/2014,"Theater, Virtual reality",https://www.youtube.com/watch?v=3MW0IqfuqoM
-Alex Gil & Bob Scott,What is Digital Humanities and What is it doing in the Library,09/11/2014,Digital humanities and libraries,https://www.youtube.com/watch?v=vocn6BIEbBw
-Harriett Green,Digital Humanities Research & the Academic Librarian,09/11/2014,Digital humanities and libraries,https://www.youtube.com/watch?v=dU5cvhGCe7w
-Thea Lindquist,Planning for Digital Humanities at CU-Boulder,09/11/2014,Digital humanities and libraries,https://www.youtube.com/watch?v=JDFYD-TPAYI
-Steven Jones,The Network Inside Out and the New Digital Humanities,09/12/2014,"Networks, Big data, Digitalhumanities practices",https://www.youtube.com/watch?v=yTWsdmOqwEo
-Erin Bauer,The Digital Network as Modern Cultural Community: Electronic Modes of Personal Belonging for International Conjunto Musicians,09/13/2014,"Networks, Music, Conjunto, Indigenous studies",https://www.youtube.com/watch?v=TxmxTFLVByw
-Scott Weingart,The moral role of DH in a data-driven world,09/13/2014,"Digital humanities sutdies, Big data, Ethics, Networks",https://www.youtube.com/watch?v=F6rVs79gCK8
-Lauren Kersey,Less is More: The Pursuit of Gestalts in Minimalism and Knowledge Discovery in Databases,09/13/2014,"Minimalism, Arts, Knowledge Discovery, Databases",https://www.youtube.com/watch?v=Rnv_WSbn3iE
-James Coltrain,Connecting Digital Humanities Data with the Scholarly 3D Toolkit,09/13/2014,"3D modelling, game design, Architecture, History",https://www.youtube.com/watch?v=OtW29vqyJcM
-John Hott,Evolving Social Structures: Networks with People as the Edges,09/13/2014,"Networks, Sociology, Geneaology",https://www.youtube.com/watch?v=KIeG8NTv7c4
-Michele Coscia,Average is Boring: How Similarity Kills a Meme's Success,09/13/2014,"Internet culture, social media",https://www.youtube.com/watch?v=tVD__6jd7LA
-Melanie Conroy,Networks In Literary History: The Salons Project,09/13/2014,"Networks, Literature, History, Europe, 18th Century, 19th Century",https://www.youtube.com/watch?v=uZ8XZJRg-cg
-Rennie Mapp,Documentary Social Networks and Narrative Structure in Enchanters of Men: Visualizing the Synchronic and Diachronic based on Alison Booth’s Collective Biographies of Women,09/13/2014,"Networks, Biographies of Women, Alison Booth, Ethel Colburne Mayne, Women studies",https://www.youtube.com/watch?v=nVB32WloIdw
-Hannah Jacobs,The New Woman Network: Visualizing the Discursive Development of a Feminist Ideal,09/13/2014,"Networks, Feminism, The New Woman",https://www.youtube.com/watch?v=zYMZrgyqZDk
-Isabel Meirelles,Learning from Constraints in Visualizations of Information,09/13/2014,"Big data, information visualization, digital humanities studies",https://www.youtube.com/watch?v=GGc1MQ5FBkw
-Matt Cohen,Editing Walt Whitman's Marginalia Today: Digital Humanities Methods at the Edge,05/01/2014,"Walt Whitman, Literature, Poetry, American, digital critical editions, marginalia",https://www.youtube.com/watch?v=XowR7sggJkE
-Paul Fishwick,Inside a 13th Century Water Clock: Multi-Disciplinary Teaching Across Computing and the Humanities,04/03/2014,"Pedagogy, Digital humanities studies, computer science",https://www.youtube.com/watch?v=2jhdyIJjgC0
-Ted Underwood,Beyond tools: the questions about interpretation that link computer science to the humanities,03/31/2014,"computer science, digital humanities studies, text mining, corpus analysis",https://www.youtube.com/watch?v=JjnXciUAdV0
-Lisa Rhody,Using Topic Modeling to Tell the Sister Arts' Story,11/07/2013,"ekphrasis, poetry, visual arts, topic modelling, network",https://www.youtube.com/watch?v=ylxxSdQCTr4
-David Staley,Poster Session: The Florida Historical Quarterly: A macro-scale reading of the journal as a 3-D sculpture ,09/14/2013,"3D modelling, History",https://www.youtube.com/watch?v=SEpS5jRI00s
-Natalie Houston,Poems on the Page: Reading the Visual Codes of Victorian Books,10/03/2013,"Poetry, Victorian era, Visual art, VisualPage, vidualization",https://www.youtube.com/watch?v=unIFT0TLGdg
-Jentery Sayers,"Fabrications, or How to Lie with Computer Vision",09/14/2013,"3D modelling, digital humanities studies, speculative humanities",https://www.youtube.com/watch?v=H4arwvdC7Z4
-James Coltrain,Recreating Historical Materiality through Scientific Simulations of Light and Texture,09/14/2013,"History, 3D modelling, Architecture, spaces",https://www.youtube.com/watch?v=kmlM0iykNdM
-Eric Welch,"Putting Moses in The Matrix: Academic Biblical Studies in a ""Post-Development"" Digital World",09/14/2013,"Archeology, Biblical studies, Religious studies",https://www.youtube.com/watch?v=HP3CpEA16EA
-Amber Stamper,From Pulpit and Pew to Pixels: American Evangelicals and the Digital Body of Christ,09/14/2013,"Religious studies, Evangelism, Bible, Online communities",https://www.youtube.com/watch?v=qmZwZjxuIus
-James Charlton,Making space on the workbench: The methodological implications of Computer Aided Design on art and design practice.,09/14/2013,"Arts, Design, CAD, Computer Aided Design",https://www.youtube.com/watch?v=VJ2ZYoxAIzk
-"Michelle Heffner Hayes, Kip Haaheim, Nicole Hodges-Persley, Sherry Tucker",Laptop Music and Embodiment: Materializing the Ephemeral,09/14/2013,"Music, Dance, Theater, AUMI, disabilities, embodiment",https://www.youtube.com/watch?v=8mkTcVOHzIE
-Derek Attig,Insta-Book Freedom': Digitization and the Persistence of the Page,09/14/2013,"Digitized literature, archives, materiality",https://www.youtube.com/watch?v=eHqw6FnWgew
-Rachael Sullivan,Reasserting Thing-Power: Roughness as a Response to Antimaterialism,09/14/2013,"materiality, computer science",https://www.youtube.com/watch?v=Zoo-X12L2m8
-Erica Fletcher,Dis/Assembling Schizophrenia on YouTube: Theorizing Analog Bodies in a Virtual Sphere,09/14/2013,"Schizophrenia, Medical Humanities, Youtube, Online Communities",https://www.youtube.com/watch?v=KXmXOlVdvuM
-whitney trettien,Short-Circuiting the Hardware of History,09/12/2013,"History, Audio narration, Sound, materiality",https://www.youtube.com/watch?v=lPsknsylKvU
-Colin Allen,Linking big data to fine analysis: textual methods in the digital humanities,09/13/2013,"Philosophy, Big Data, Ontology, Texts, IMPho Project",https://www.youtube.com/watch?v=DIhbi7m1Wv0
-Jonathan Lamb,The Light Commodity of Words: Digitizing the Material Book,09/05/2013,"English, Literature, EEBO, TCP, Early-Modern era, materiality",https://www.youtube.com/watch?v=Uoyydm5QNg8
-Doug Ward,Digital Humanities Profile: Doug Ward on Infomania,07/22/2013,"Profile, Journalism",https://www.youtube.com/watch?v=dPWjvm1i92A
-Jonathan Lamb,Digital Humanities Profile: Jonathan Lamb on Digital Shakespeare,05/27/2013,"Profile, English literature, Shakespeare",https://www.youtube.com/watch?v=LPyTXu5AcBQ
-Germaine Halegoua,Digital Humanities Profile: Germaine Halegoua on digital humanities tools and research,05/21/2013,"Profile, Film and Media studies, Community",https://www.youtube.com/watch?v=l0_9WmqrKsE
-Anne D. Hedeman & Heather Tennison,Digging into 'Digging into Data',05/07/2013,"Image Data, Authorship, Art history, machine learning",https://www.youtube.com/watch?v=QwhDDSbeQ9Q
-Elijah Meeks,Networks and Network Analysis Methods in Humanities,03/05/2013,"Networks, Genealogy",https://www.youtube.com/watch?v=y-KFJO_KIFQ
-Mark Sample,Playing without the power of video games,11/06/2012,"Video games, game studies, electronic literature",https://www.youtube.com/watch?v=qcouLFHbGBE
-Amy Earhart,"Recovering the Recovered Text: Diversity, Canon Building, and Digital Studies",10/02/2012,"Digitized texts, Canan building, diversity, literature studies, recovery",https://www.youtube.com/watch?v=7ui9PIjDreo
-Geoffrey Rockwell,False Positives: Opportunities and Dangers in Big Text Analysis,09/21/2012,"Text analysis, big data, digital humanities studies",https://www.youtube.com/watch?v=kW9WgqPTxA0
-Gregory Crane,The Humanities in a Digital Age,09/20/2012,"digital humanities studies, Perseus Project, Big Data, undergraduate research",https://www.youtube.com/watch?v=sVdOaYgU7qA
-Kari Kraus,Phylogenetic Futures: Big Data and Design Fiction,09/22/2012,"Phylogenetics, Big data, design fiction, transmedia worlds",https://www.youtube.com/watch?v=E6rnQ_22Seo
-Patrick Flor,Grounds more relative than this': Harnessing Uncertainty in Digital Literary Studies,09/22/2012,"Digital humanities studies, Big data, uncertainty, Shakespeare",https://www.youtube.com/watch?v=nwdS0bI-gFs
-Peter Welsh,Museum Collecting in the Age of 'Big Data': Opportunities for Collaboration,09/22/2012,"Museums, Big data, Digital humanities studies",https://www.youtube.com/watch?v=892HyeWFb3c
-Harriett Green,What are You Going to Do with That Data? Humanities Scholars & Digital Collections,09/22/2012 ,Digital humanities and libraries,https://www.youtube.com/watch?v=S9q5iDLr_pk
-Katharine Coles and Julie Lein,A World in a Grain of Sand: Uncertainty & Poetry Corpora Visualization,09/22/2012,"Poetry, Uncertainty, Data visualization, tool building, computer science, collaboration",https://www.youtube.com/watch?v=YJLSbbNDMbM
-Ben Schmidt,Reading Genres: Exploring Massive Digital Collections From the Top Down,09/22/2012,"History, Big data, Text analysis, mapping, Digitized texts, Genre studies, Bookworm",https://www.youtube.com/watch?v=TakIcc4PSAc
-Kip Haaheim,Ear of the Beholder,09/04/2012,"Music, Aesthetics, Electronic Music",https://www.youtube.com/watch?v=QnswcEXHZho
-Michael Sperberg-McQueen,XML as a tool for domain-specific languages,09/23/2011,"XML, Textual studies, digital humanities studies, TEI",https://www.youtube.com/watch?v=2em8_Bnhxqo
-Michael Sperberg-McQueen,The hermeneutics of data representation,09/24/2011,"digital humanities studies, Philosophy",https://www.youtube.com/watch?v=BF_g1WvDDtU
-David Birnbaum,The Graphic Visualization of XML Documents,09/24/2011,"XML, Philology, Russian literature, graphic visualization, dendograms, plectograms",https://www.youtube.com/watch?v=1CjaCjCabm4
-Philip Stinson,From Uncertainty to Virtual Reality: Knowledge Representation in Rome Reborn,09/24/2011,"History, 3D modelling, Architecture, spaces, Rome Reborn, uncertainty",https://www.youtube.com/watch?v=nUbQ-fz0_QQ
-Tanya Clement,Sounding it out: modeling aurality for text collection analysis,09/24/2011,"Gertrude Stein, Poetry, Text analysis, XML, sound studies",https://www.youtube.com/watch?v=VQ-Lt-5UxYg
-Corrie Claiborne,Teaching Texts with Technology: Reading African American Literature in the Digital Age,04/23/2012,"African American studies, Literature, Pedagogy",https://www.youtube.com/watch?v=QjYkbZEGkXs
-Peter J. Grund,An Electronic Database Tool for Charting the Recorders of the Salem Witch Trials,04/03/2012,"Salem witch trials, History, database, handwriting identification",https://www.youtube.com/watch?v=jhLzrf2Tik0
-Rebecca Welzenbach,"Making the most of free, unrestricted texts--the Text Creation Partnership",09/24/2011,"18th century, Digitized texts, XML, Archives, EEBO-TCP",https://www.youtube.com/watch?v=ndCA-m16h9g
-Michele Pasin,Prosopography and Computer Ontologies: the 'factoid' model and CIDOC-CRM,09/24/2011,"Prosopography, computer ontologies, historiccal sources",https://www.youtube.com/watch?v=ZDeIAw-Fx9I
-Stephen Egbert,Geospatial Genealogy to Reveal Residential and Kinship Patterns in a Pre-Holocaust Ukrainian Village,09/24/2011,"GIS, Ukraine, pre-Holocaust, History, spaces",https://www.youtube.com/watch?v=7-TW46tJBrc
-David J Birnbaum,Patterns in the transmission of cultural texts: the case of medieval miscellany manuscripts,03/06/2012,"Middle-Age, Medieval Literature, Slavic, geneaologies of texts",https://www.youtube.com/watch?v=UYpl7ICVfEQ
-Chris Weaver,Emerging Opportunities for Visual Analytics in the Digital Humanities,02/07/2012,"Visual analytics, digital humanities studies, data visualization and anallytics",https://www.youtube.com/watch?v=WMAiDQFb5AA
-Peter Grund,"An Interview with Peter Grund on the Salem Witchcraft Trials and Checkley, an Open Source Handwriting Description Database",01/11/2012,"History, Salem trials, open source, handwriting",https://idrh.ku.edu/profile/peter-grund
-Kip Haaheim,Faculty Interview: Kip Haaheim,01/11/2012,"Music, sound, composition",https://idrh.ku.edu/profile/kip-haaheim
-Nina Vyatkina,Faculty Interview: Nina Vyatkina,01/11/2012,"German, Linguistics, Foreign language, teaching, pedagogy",https://idrh.ku.edu/profile/nina-vyatkina
-Bill Keel & Chris Johnson,The Linguistic Atlas of Kansas German Dialects: An Interview with Bill Keel and Chris Johnson,01/04/2013,"Linguistics, German, dialects, German-American, Midwest",https://idrh.ku.edu/linguistic-atlas-of-kansas-german-dialects
+Matt Menzenski,The first part of 'text analysis' is 'text': Applying digital methods to an under-documented language,9/29/2014,"endangered languages, Tohono O’odham, indigenous studies",https://www.youtube.com/watch?v=aWSO-YWFycs
+Erin Bauer,The Digital Network as Modern Cultural Community: Electronic Modes of Personal Belonging for International Conjunto Musicians,9/13/2014,"Networks, Music, Conjunto, Indigenous studies",https://www.youtube.com/watch?v=TxmxTFLVByw
+Scott Weingart,The moral role of DH in a data-driven world,9/13/2014,"Digital humanities sutdies, Big data, Ethics, Networks",https://www.youtube.com/watch?v=F6rVs79gCK8
+Lauren Kersey,Less is More: The Pursuit of Gestalts in Minimalism and Knowledge Discovery in Databases,9/13/2014,"Minimalism, Arts, Knowledge Discovery, Databases",https://www.youtube.com/watch?v=Rnv_WSbn3iE
+James Coltrain,Connecting Digital Humanities Data with the Scholarly 3D Toolkit,9/13/2014,"3D modelling, game design, Architecture, History",https://www.youtube.com/watch?v=OtW29vqyJcM
+John Hott,Evolving Social Structures: Networks with People as the Edges,9/13/2014,"Networks, Sociology, Geneaology",https://www.youtube.com/watch?v=KIeG8NTv7c4
+Michele Coscia,Average is Boring: How Similarity Kills a Meme's Success,9/13/2014,"Internet culture, social media",https://www.youtube.com/watch?v=tVD__6jd7LA
+Melanie Conroy,Networks In Literary History: The Salons Project,9/13/2014,"Networks, Literature, History, Europe, 18th Century, 19th Century",https://www.youtube.com/watch?v=uZ8XZJRg-cg
+Rennie Mapp,Documentary Social Networks and Narrative Structure in Enchanters of Men: Visualizing the Synchronic and Diachronic based on Alison Booth’s Collective Biographies of Women,9/13/2014,"Networks, Biographies of Women, Alison Booth, Ethel Colburne Mayne, Women studies",https://www.youtube.com/watch?v=nVB32WloIdw
+Hannah Jacobs,The New Woman Network: Visualizing the Discursive Development of a Feminist Ideal,9/13/2014,"Networks, Feminism, The New Woman",https://www.youtube.com/watch?v=zYMZrgyqZDk
+Isabel Meirelles,Learning from Constraints in Visualizations of Information,9/13/2014,"Big data, information visualization, digital humanities studies",https://www.youtube.com/watch?v=GGc1MQ5FBkw
+Steven Jones,The Network Inside Out and the New Digital Humanities,9/12/2014,"Networks, Big data, Digitalhumanities practices",https://www.youtube.com/watch?v=yTWsdmOqwEo
+Glen Worthey,Digital Humanities in the Library: Been Here Longer Than You May Think,9/11/2014,"Digital humanities and libraries",https://www.youtube.com/watch?v=sV_FfKdLtEg
+"Alex Gil, Bob Scott",What is Digital Humanities and What is it doing in the Library,9/11/2014,"Digital humanities and libraries",https://www.youtube.com/watch?v=vocn6BIEbBw
+Harriett Green,Digital Humanities Research & the Academic Librarian,9/11/2014,"Digital humanities and libraries",https://www.youtube.com/watch?v=dU5cvhGCe7w
+Thea Lindquist,Planning for Digital Humanities at CU-Boulder,9/11/2014,"Digital humanities and libraries",https://www.youtube.com/watch?v=JDFYD-TPAYI
+Amanda Gailey,The Case for Close Textual Attention in the Age of Text Glut,8/27/2014,"Close reading, pedagogy",https://www.youtube.com/watch?v=DEXXS4V76y8
+Matt Cohen,Editing Walt Whitman's Marginalia Today: Digital Humanities Methods at the Edge,5/1/2014,"Walt Whitman, Literature, Poetry, American, digital critical editions, marginalia",https://www.youtube.com/watch?v=XowR7sggJkE
+Paul Fishwick,Inside a 13th Century Water Clock: Multi-Disciplinary Teaching Across Computing and the Humanities,4/3/2014,"Pedagogy, Digital humanities studies, computer science",https://www.youtube.com/watch?v=2jhdyIJjgC0
+Ted Underwood,Beyond tools: the questions about interpretation that link computer science to the humanities,3/31/2014,"computer science, digital humanities studies, text mining, corpus analysis",https://www.youtube.com/watch?v=JjnXciUAdV0
+Germaine Halegoua,The Spatial Self: Location-Based Identity on Social Media,3/6/2014,"Social Media, Internet, Technology, Geography, Digital Humanities",https://idrh.ku.edu/seminar
+Crispin Williams,Ancient Chinese Scribal Hands: Recording, Searching and Visualizing Scribal Practices in the Fifth-Century BC Wenxian Covenant Texts,2/6/2014,"China, History, Scribes",https://idrh.ku.edu/seminar
+Phil Stinson,Joining Geographic Information Systems (GIS) and Humanistic Research: The Traditional Karez Water System in Southern Afghanistan,12/4/2013,"Geography, GIS, Digital Humanities",https://idrh.ku.edu/seminar
+Lisa Rhody,Using Topic Modeling to Tell the Sister Arts' Story,11/7/2013,"ekphrasis, poetry, visual arts, topic modelling, network",https://www.youtube.com/watch?v=ylxxSdQCTr4
+Mark Sample,Playing without Power in Videogames,11/6/2013,"Video Games, Power",https://youtu.be/qcouLFHbGBE
+Natalie Houston,Poems on the Page: Reading the Visual Codes of Victorian Books,10/3/2013,"Poetry, Victorian era, Visual art, VisualPage, vidualization",https://www.youtube.com/watch?v=unIFT0TLGdg
+Amy Earhart,"Recovering the Recovered Text: Diversity, Canon Building, and Digital Studies",10/2/2013,"Diversity, Digital Studies",https://youtu.be/7ui9PIjDreo
+David Staley,Poster Session: The Florida Historical Quarterly: A macro-scale reading of the journal as a 3-D sculpture ,9/14/2013,"3D modelling, History",https://www.youtube.com/watch?v=SEpS5jRI00s
+Jentery Sayers,Fabrications, or How to Lie with Computer Vision,9/14/2013,"3D modelling, digital humanities studies, speculative humanities",https://www.youtube.com/watch?v=H4arwvdC7Z4
+James Coltrain,Recreating Historical Materiality through Scientific Simulations of Light and Texture,9/14/2013,"History, 3D modelling, Architecture, spaces",https://www.youtube.com/watch?v=kmlM0iykNdM
+Eric Welch,Putting Moses in The Matrix: Academic Biblical Studies in a "Post-Development" Digital World,9/14/2013,"Archeology, Biblical studies, Religious studies",https://www.youtube.com/watch?v=HP3CpEA16EA
+Amber Stamper,From Pulpit and Pew to Pixels: American Evangelicals and the Digital Body of Christ,9/14/2013,"Religious studies, Evangelism, Bible, Online communities",https://www.youtube.com/watch?v=qmZwZjxuIus
+James Charlton,Making space on the workbench: The methodological implications of Computer Aided Design on art and design practice.,9/14/2013,"Arts, Design, CAD, Computer Aided Design",https://www.youtube.com/watch?v=VJ2ZYoxAIzk
+"Michelle Heffner Hayes, Kip Haaheim, Nicole Hodges-Persley, Sherry Tucker",Laptop Music and Embodiment: Materializing the Ephemeral,9/14/2013,"Music, Dance, Theater, AUMI, disabilities, embodiment",https://www.youtube.com/watch?v=8mkTcVOHzIE
+Derek Attig,Insta-Book Freedom: Digitization and the Persistence of the Page,9/14/2013,"Digitized literature, archives, materiality",https://www.youtube.com/watch?v=eHqw6FnWgew
+Rachael Sullivan,Reasserting Thing-Power: Roughness as a Response to Antimaterialism,9/14/2013,"materiality, computer science",https://www.youtube.com/watch?v=Zoo-X12L2m8
+Erica Fletcher,Dis/Assembling Schizophrenia on YouTube: Theorizing Analog Bodies in a Virtual Sphere,9/14/2013,"Schizophrenia, Medical Humanities, Youtube, Online Communities",https://www.youtube.com/watch?v=KXmXOlVdvuM
+Colin Allen,Linking big data to fine analysis: textual methods in the digital humanities,9/13/2013,"Philosophy, Big Data, Ontology, Texts, IMPho Project",https://www.youtube.com/watch?v=DIhbi7m1Wv0
+whitney trettien,Short-Circuiting the Hardware of History,9/12/2013,"History, Audio narration, Sound, materiality",https://www.youtube.com/watch?v=lPsknsylKvU
+Jonathan Lamb,The Light Commodity of Words: Digitizing the Material Book,9/5/2013,"English, Literature, EEBO, TCP, Early-Modern era, materiality",https://www.youtube.com/watch?v=Uoyydm5QNg8
+Doug Ward,Digital Humanities Profile: Doug Ward on Infomania,7/22/2013,"Profile, Journalism",https://www.youtube.com/watch?v=dPWjvm1i92A
+Jonathan Lamb,Digital Humanities Profile: Jonathan Lamb on Digital Shakespeare,5/27/2013,"Profile, English literature, Shakespeare",https://www.youtube.com/watch?v=LPyTXu5AcBQ
+Germaine Halegoua,Digital Humanities Profile: Germaine Halegoua on digital humanities tools and research,5/21/2013,"Profile, Film and Media studies, Community",https://www.youtube.com/watch?v=l0_9WmqrKsE
+"Anne D. Hedeman, Heather Tennison",Digging into 'Digging into Data',5/7/2013,"Image Data, Authorship, Art history, machine learning",https://www.youtube.com/watch?v=QwhDDSbeQ9Q
+Brian Pytlik Zillig,"Digital Humanities and Electronic Texts: Proliferation, Interoperation, Illumination",4/2/2013,"Digital Humanities, Technology, Books",https://idrh.ku.edu/seminar
+Elijah Meeks,Networks and Network Analysis Methods in Humanities,3/5/2013,"Networks, Genealogy",https://www.youtube.com/watch?v=y-KFJO_KIFQ
+Benjamin Rosenthal,All Quiet on the [Virtual] Front: Traversing the Digital/Physical Divide,2/5/2013,"Technosexual, Video Art, Analog to Digital, Art",https://idrh.ku.edu/seminar
+"Bill Keel, Chris Johnson",The Linguistic Atlas of Kansas German Dialects: An Interview with Bill Keel and Chris Johnson,1/4/2013,"Linguistics, German, dialects, German-American, Midwest",https://idrh.ku.edu/linguistic-atlas-of-kansas-german-dialects
+Mark Sample,Playing without the power of video games,11/6/2012,"Video games, game studies, electronic literature",https://www.youtube.com/watch?v=qcouLFHbGBE
+Amy Earhart,Recovering the Recovered Text: Diversity, Canon Building, and Digital Studies,10/2/2012,"Digitized texts, Canan building, diversity, literature studies, recovery",https://www.youtube.com/watch?v=7ui9PIjDreo
+Kari Kraus,Phylogenetic Futures: Big Data and Design Fiction,9/22/2012,"Phylogenetics, Big data, design fiction, transmedia worlds",https://www.youtube.com/watch?v=E6rnQ_22Seo
+Patrick Flor,Grounds more relative than this': Harnessing Uncertainty in Digital Literary Studies,9/22/2012,"Digital humanities studies, Big data, uncertainty, Shakespeare",https://www.youtube.com/watch?v=nwdS0bI-gFs
+Peter Welsh,Museum Collecting in the Age of 'Big Data': Opportunities for Collaboration,9/22/2012,"Museums, Big data, Digital humanities studies",https://www.youtube.com/watch?v=892HyeWFb3c
+Harriett Green,What are You Going to Do with That Data? Humanities Scholars & Digital Collections,09/22/2012 ,"Digital humanities and libraries",https://www.youtube.com/watch?v=S9q5iDLr_pk
+"Katharine Coles, Julie Lein",A World in a Grain of Sand: Uncertainty & Poetry Corpora Visualization,9/22/2012,"Poetry, Uncertainty, Data visualization, tool building, computer science, collaboration",https://www.youtube.com/watch?v=YJLSbbNDMbM
+Ben Schmidt,Reading Genres: Exploring Massive Digital Collections From the Top Down,9/22/2012,"History, Big data, Text analysis, mapping, Digitized texts, Genre studies, Bookworm",https://www.youtube.com/watch?v=TakIcc4PSAc
+Geoffrey Rockwell,False Positives: Opportunities and Dangers in Big Text Analysis,9/21/2012,"Text analysis, big data, digital humanities studies",https://www.youtube.com/watch?v=kW9WgqPTxA0
+Gregory Crane,The Humanities in a Digital Age,9/20/2012,"digital humanities studies, Perseus Project, Big Data, undergraduate research",https://www.youtube.com/watch?v=sVdOaYgU7qA
+Kip Haaheim,Ear of the Beholder,9/4/2012,"Music, Aesthetics, Electronic Music",https://www.youtube.com/watch?v=QnswcEXHZho
+Patrick Flor,Grounds More Relative Than This': Towards Semantic Computation in Digital Literary Studies,5/1/2012,"Semantics, Digital Humanities",https://idrh.ku.edu/seminar
+Corrie Claiborne,Teaching Texts with Technology: Reading African American Literature in the Digital Age,4/23/2012,"African American studies, Literature, Pedagogy",https://www.youtube.com/watch?v=QjYkbZEGkXs
+Peter J. Grund,An Electronic Database Tool for Charting the Recorders of the Salem Witch Trials,4/3/2012,"Salem witch trials, History, database, handwriting identification",https://www.youtube.com/watch?v=jhLzrf2Tik0
+David J Birnbaum,Patterns in the transmission of cultural texts: the case of medieval miscellany manuscripts,3/6/2012,"Middle-Age, Medieval Literature, Slavic, geneaologies of texts",https://www.youtube.com/watch?v=UYpl7ICVfEQ
+Chris Weaver,Emerging Opportunities for Visual Analytics in the Digital Humanities,2/7/2012,"Visual analytics, digital humanities studies, data visualization and anallytics",https://www.youtube.com/watch?v=WMAiDQFb5AA
+Peter Grund,"An Interview with Peter Grund on the Salem Witchcraft Trials and Checkley, an Open Source Handwriting Description Database",1/11/2012,"History, Salem trials, open source, handwriting",https://idrh.ku.edu/profile/peter-grund
+Kip Haaheim,Faculty Interview: Kip Haaheim,1/11/2012,"Music, sound, composition",https://idrh.ku.edu/profile/kip-haaheim
+Nina Vyatkina,Faculty Interview: Nina Vyatkina,1/11/2012,"German, Linguistics, Foreign language, teaching, pedagogy",https://idrh.ku.edu/profile/nina-vyatkina
+Nina Vyatkina,Longitudinal Language Learning: How the Digital Humanities Can Expand Your Research,12/6/2011,"Digital Humanities",https://idrh.ku.edu/seminar
+Jeff Rydberg-Cox,Social Networks as a Tool for Visualizing Linguistic Data in Greek Tragedy,11/1/2011,"Social Networking, Greek, Digital Humanities",https://idrh.ku.edu/seminar
+Margaret Pearce,Digital Cartography and Collaboration in Maine: Transcultural Map Design with the Penobscot Nation,10/4/2011,"Hermeneutics, Data",https://idrh.ku.edu/seminar
+Michael Sperberg-McQueen,The hermeneutics of data representation,9/24/2011,"digital humanities studies, Philosophy",https://www.youtube.com/watch?v=BF_g1WvDDtU
+David Birnbaum,The Graphic Visualization of XML Documents,9/24/2011,"XML, Philology, Russian literature, graphic visualization, dendograms, plectograms",https://www.youtube.com/watch?v=1CjaCjCabm4
+Philip Stinson,From Uncertainty to Virtual Reality: Knowledge Representation in Rome Reborn,9/24/2011,"History, 3D modelling, Architecture, spaces, Rome Reborn, uncertainty",https://www.youtube.com/watch?v=nUbQ-fz0_QQ
+Tanya Clement,Sounding it out: modeling aurality for text collection analysis,9/24/2011,"Gertrude Stein, Poetry, Text analysis, XML, sound studies",https://www.youtube.com/watch?v=VQ-Lt-5UxYg
+Rebecca Welzenbach,Making the most of free, unrestricted texts--the Text Creation Partnership,9/24/2011,"18th century, Digitized texts, XML, Archives, EEBO-TCP",https://www.youtube.com/watch?v=ndCA-m16h9g
+Michele Pasin,Prosopography and Computer Ontologies: the 'factoid' model and CIDOC-CRM,9/24/2011,"Prosopography, computer ontologies, historiccal sources",https://www.youtube.com/watch?v=ZDeIAw-Fx9I
+Stephen Egbert,Geospatial Genealogy to Reveal Residential and Kinship Patterns in a Pre-Holocaust Ukrainian Village,9/24/2011,"GIS, Ukraine, pre-Holocaust, History, spaces",https://www.youtube.com/watch?v=7-TW46tJBrc
+Michael Sperberg-McQueen,XML as a tool for domain-specific languages,9/23/2011,"XML, Textual studies, digital humanities studies, TEI",https://www.youtube.com/watch?v=2em8_Bnhxqo
+Stephen Ramsay,Textual Behavior in the Human Male: Computational Text Analysis and Gender,9/6/2011,"Male, Analysis, Gender",https://idrh.ku.edu/seminar
