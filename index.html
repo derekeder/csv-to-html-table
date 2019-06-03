@@ -60,7 +60,13 @@
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": false, "order":[[2,"desc"]]},
-        custom_formatting: [[4, format_link]]
+        custom_formatting: [[4, format_link, ]]
+        {
+        re: /^\s*(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})\s*$/,
+        f: function (x) {
+            return (new Date(sort.date.fixYear(x[3]),+x[2],+x[1])).getTime();
+        }
+    },
       });
     </script>
   </body>
