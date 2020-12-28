@@ -80,6 +80,12 @@ You can run this locally using this handy python command:
 python -m SimpleHTTPServer
 ```
 
+...or with Python 3:
+
+```bash
+python -m http.server
+```
+
 navigate to http://localhost:8000/
 
 #### 5. Deploy it
