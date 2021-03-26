@@ -4,6 +4,8 @@ Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100
 
 Check out the working demo: https://csv-to-html-table.netlify.app/
 
+![Screen Shot 2021-03-26 at 4 53 39 PM](https://user-images.githubusercontent.com/919583/112696463-d7ddd000-8e53-11eb-8f0e-084794450943.png)
+
 ## Usage
 
 #### 1. Clone this repository (in the command line)
