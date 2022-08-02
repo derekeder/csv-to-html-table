@@ -1,43 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CSV to HTML Table</title>
-    <meta name="author" content="Derek Eder">
-    <meta content="Display any CSV file as a searchable, filterable, pretty HTML table">
+    <title>norden.social Finanzen</title>
+    <meta name="author" content="norden.social Team">
+    <meta content="Die Übersicht der Finanzen von norden.social">
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 
 <body>
     <div class="container-fluid">
-        <main class="row">
-            <div class="col">
-                <h1>CSV to HTML Table</h1>
+        <main>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 own-background">
+                    <h1>norden.social Finanzen</h1>
 
-                <p>Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100% JavaScript. <a
-                        href="https://github.com/derekeder/csv-to-html-table">Code
-                        on GitHub</a>.</p>
-
-                <p> Here's a table of Health Clinics from the <a href="https://data.cityofchicago.org/browse?q=health%20clinic&sortBy=relevance&utf8=%E2%9C%93">City
-                        of Chicago Data Portal</a>.
-                </p>
-
-                <div id="table-container"></div>
+                    <h2>Unterstützen</h2>
+                    <p>Diese Instanz zu betreiben kostet (leider) Geld. Unsere Admins und Moderator:innen erhalten zwar kein
+                        Geld, wir freuen uns aber dennoch über Unterstützung, um alles weitere wie Domain und Hosting
+                        bezahlen zu können.</p>
+                    <h3>Unsere Töpfe im Internet:</h3>
+                    <ul>
+                        <li>Niklas Barning<br>
+                            IBAN DE08100110012625 380912<br>
+                            BIC NTSBDEB1XXX<br>
+                            Verwendungszweck: nordensocial</li>
+                        <li>Natürlich auch über Paypal: <form action="https://www.paypal.com/donate" method="post"
+                                target="_top">
+                                <input type="hidden" name="hosted_button_id" value="9LRTE4ZLTNF7N" />
+                                <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif"
+                                    border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                                    alt="Donate with PayPal button" />
+                                <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1"
+                                    height="1" />
+                            </form>
+                        </li>
+                        <li><a href="https://liberapay.com/norden.social">Liberapay</a></li>
+                    </ul>
+                    <img class="mascot"
+                        src="https://norden.social/system/site_uploads/files/000/000/006/original/Mastodon_Elefant_Pride_Month.png"
+                        alt="norden.social Mascot">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 own-background">
+                    <h2>Unsere Einnahmen und Ausgaben</h2>
+                    <div id="table-container"></div>
+                </div>
             </div>
         </main>
-        <footer class="row">
-            <div class="col">
-                <hr>
-                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by
-                    <a href="http://derekeder.com">Derek
-                        Eder</a></p>
+        <footer class="row justify-content-center">
+            <div class="col-lg-8 own-background">
+                <p><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by <a href="http://derekeder.com">Derek Eder</a></p>
+                <p>Design by <a href="https://niklasbarning.de">Niklas Barning</a> for <a href="https://norden.social">norden.social</a></p>
             </div>
         </footer>
     </div>
@@ -49,28 +72,30 @@
     <script src="js/csv_to_html_table.js"></script>
 
     <script>
-        function format_link(link) {
-            if (link)
-                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-            else return "";
+        function setColor(data) {
+            if (data)
+                if (parseFloat(data) > 0)
+                    return "<span class='positive'>" + data + "€<span>"
+                else return "<span class='negative'>" + data + "€<span>"
         }
 
         CsvToHtmlTable.init({
-            csv_path: "data/Health Clinics in Chicago.csv",
+            csv_path: "data/norden_social.csv",
             element: "table-container",
-            allow_download: true,
+            allow_download: false,
             csv_options: {
-                separator: ",",
+                separator: ";",
                 delimiter: '"'
             },
             datatables_options: {
-                paging: false
+                paging: false,
+                order: [[ 0, "desc" ]],
+                searching: false
             },
             custom_formatting: [
-                [4, format_link]
+                [1, setColor]
             ]
         });
     </script>
 </body>
-
 </html>
