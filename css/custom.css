@@ -8,11 +8,24 @@ h1 {
   margin-bottom: .5em;
 }
 
+li {
+  margin-bottom: .5em;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover {
+  color: #9baec8;
+}
+
 .own-background {
   overflow: hidden;
   background-color: #282c37;
   border-radius: 5px;
-  color: #9baec8;
+  color: white;
   box-shadow: 0 0 15px rgba(0,0,0,.2);
   margin: 1em;
   padding: 2em;
