@@ -67,10 +67,12 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 own-background">
-                <h2>Unsere Einnahmen und Ausgaben in anonymisierter Form</h2>
+                <h2 class="space-top">Unsere Einnahmen und Ausgaben in anonymisierter Form</h2>
                 <canvas id="myChart" width="400" height="150"></canvas>
-                <h2>Unterstützer:innen</h2>
+                <h3 class="space-top--double">Unterstützer:innen</h3>
                 <canvas id="myChart2" width="400" height="150"></canvas>
+                <h3 class="space-top--double">Als Tabelle</h3>
+                <div id="table-container"></div>
             </div>
         </div>
     </main>
@@ -86,6 +88,12 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"
         integrity="sha256-+8RZJua0aEWg+QVVKg4LEzEEm/8RFez5Tb4JBNiV5xA="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.csv.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script src="js/csv_to_html_table.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

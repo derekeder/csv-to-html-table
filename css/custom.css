@@ -58,3 +58,11 @@ a:hover {
   padding: 1em;
   color: white;
 }
+
+.space-top {
+  margin-top: 1rem;
+}
+
+.space-top--double {
+  margin-top: 2rem;
+}
