@@ -9,71 +9,91 @@
     <meta name="author" content="norden.social Team">
     <meta content="Die Übersicht der Finanzen und andere Themen von norden.social">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="./css/custom.css">
     <link href="https://norden.social/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <main>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 own-background">
-                    <h1>Transparenz @ <a href="https://norden.social">norden.social</a></h1>
-                    <p>Diese Seite dient dazu, etwas mehr von der Arbeit hinter den Kulissen der Mastodon-Instanz norden.social zu zeigen. Derzeit haben wir noch keine weitere Idee in welche Richtung es gehen könnte und hoffen auf Vorschläge aus der Community.</p>
-                    <p>Falls du dich bei der Arbeit an dieser Seite einbringen möchtest, kannst du dies auf <a href="https://github.com/norden-social/transparenz">Github</a> tun.</p>
-
-                    <h2>Finanzielle Unterstützung</h2>
-                    <p>Diese Instanz zu betreiben kostet (leider) Geld. Unsere Admins und Moderator:innen erhalten zwar keine
-                        Vergütung, wir freuen uns aber dennoch über Unterstützung, um alles weitere wie Domain und Hosting
-                        bezahlen zu können.</p>
-                    <h3>Unsere Töpfe im Internet:</h3>
-                    <ul>
-                        <li>Niklas Barning<br>
-                            IBAN DE08100110012625 380912<br>
-                            BIC NTSBDEB1XXX<br>
-                            Verwendungszweck: nordensocial</li>
-                        <li>Natürlich auch über Paypal: <form action="https://www.paypal.com/donate" method="post"
-                                target="_top">
-                                <input type="hidden" name="hosted_button_id" value="9LRTE4ZLTNF7N" />
-                                <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif"
-                                    border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
-                                    alt="Donate with PayPal button" />
-                                <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1"
-                                    height="1" />
-                            </form>
-                        </li>
-                        <li><a href="https://liberapay.com/norden.social">Liberapay</a></li>
-                    </ul>
-
-                    <img class="mascot"
-                        src="https://norden.social/system/site_uploads/files/000/000/006/original/Mastodon_Elefant_Elbsegler_2.png"
-                        alt="norden.social Mascot">
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 own-background">
-                    <h2>Unsere Einnahmen und Ausgaben in anonymisierter Form</h2>
-                    <div id="table-container"></div>
-                </div>
-            </div>
-        </main>
-        <footer class="row justify-content-center">
+<div class="container-fluid">
+    <main>
+        <div class="row justify-content-center">
             <div class="col-lg-8 own-background">
-                <p><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by <a href="http://derekeder.com">Derek Eder</a></p>
-                <p><a href="https://norden.social/about/more#impressum">Impressum</a></p>
+                <h1>Transparenz @ <a href="https://norden.social">norden.social</a></h1>
+                <p>Diese Seite dient dazu, etwas mehr von der Arbeit hinter den Kulissen der
+                    Mastodon-Instanz norden.social zu zeigen. Derzeit haben wir noch keine weitere
+                    Idee in welche Richtung es gehen könnte und hoffen auf Vorschläge aus der
+                    Community.</p>
+                <p>Falls du dich bei der Arbeit an dieser Seite einbringen möchtest, kannst du dies
+                    auf <a href="https://github.com/norden-social/transparenz">Github</a> tun.</p>
+
+                <h2>Finanzielle Unterstützung</h2>
+                <p>Diese Instanz zu betreiben kostet (leider) Geld. Unsere Admins und
+                    Moderator:innen erhalten zwar keine
+                    Vergütung, wir freuen uns aber dennoch über Unterstützung, um alles weitere wie
+                    Domain und Hosting
+                    bezahlen zu können.</p>
+                <h3>Unsere Töpfe im Internet:</h3>
+                <ul>
+                    <li>Niklas Barning<br>
+                        IBAN DE08100110012625 380912<br>
+                        BIC NTSBDEB1XXX<br>
+                        Verwendungszweck: nordensocial
+                    </li>
+                    <li>Natürlich auch über Paypal:
+                        <form action="https://www.paypal.com/donate" method="post"
+                              target="_top">
+                            <input type="hidden" name="hosted_button_id" value="9LRTE4ZLTNF7N"/>
+                            <input type="image"
+                                   src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif"
+                                   border="0" name="submit"
+                                   title="PayPal - The safer, easier way to pay online!"
+                                   alt="Donate with PayPal button"/>
+                            <img alt="" border="0"
+                                 src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1"
+                                 height="1"/>
+                        </form>
+                    </li>
+                    <li><a href="https://liberapay.com/norden.social">Liberapay</a></li>
+                </ul>
+
+                <img class="mascot"
+                     src="https://norden.social/system/site_uploads/files/000/000/006/original/Mastodon_Elefant_Elbsegler_2.png"
+                     alt="norden.social Mascot">
             </div>
-        </footer>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.csv.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-    <script src="js/csv_to_html_table.js"></script>
-    <script src="js/script.js"></script>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 own-background">
+                <h2 class="space-top">Unsere Einnahmen und Ausgaben in anonymisierter Form</h2>
+                <canvas id="myChart" width="400" height="150"></canvas>
+                <h3 class="space-top--double">Unterstützer:innen</h3>
+                <canvas id="myChart2" width="400" height="150"></canvas>
+                <h3 class="space-top--double">Als Tabelle</h3>
+                <div id="table-container"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="row justify-content-center">
+        <div class="col-lg-8 own-background">
+            <p><a href="https://norden.social/about/more#impressum">Impressum</a></p>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
+        integrity="sha512-+H4iLjY3JsKiF2V6N366in5IQHj2uEsGV7Pp/GRcm0fn76aPAk5V8xB6n8fQhhSonTqTXs/klFz4D0GIn6Br9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"
+        integrity="sha256-+8RZJua0aEWg+QVVKg4LEzEEm/8RFez5Tb4JBNiV5xA="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.csv.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script src="js/csv_to_html_table.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
