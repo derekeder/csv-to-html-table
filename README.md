@@ -11,7 +11,7 @@ Check out the working demo: https://csv-to-html-table.netlify.app/
 #### 1. Clone this repository (in the command line)
 
 ``` bash
-git clone git@github.com:derekeder/csv-to-html-table.git
+git clone https://github.com/derekeder/csv-to-html-table
 cd csv-to-html-table
 ```
 
