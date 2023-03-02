@@ -1,4 +1,5 @@
 var CsvToHtmlTable = CsvToHtmlTable || {};
+var CsvToHtmlTable_DataTable = {};
 
 CsvToHtmlTable = {
     init: function (options) {
@@ -8,6 +9,7 @@ CsvToHtmlTable = {
         var allow_download = options.allow_download || false;
         var csv_options = options.csv_options || {};
         var datatables_options = options.datatables_options || {};
+        var column_filters = options.column_filters || false;
         var custom_formatting = options.custom_formatting || [];
         var customTemplates = {};
         $.each(custom_formatting, function (i, v) {
@@ -29,6 +31,22 @@ CsvToHtmlTable = {
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     $tableHeadRow.append($("<th></th>").text(csvHeaderRow[headerIdx]));
                 }
+
+                if (column_filters) {
+                    var $tableHeadRow_filter = $("<tr></tr>");
+                    for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
+                        $tableHeadRow_filter.append($("<th></th>").html(
+                            '<input type="text" id="col_f-' + headerIdx + '" placeholder="filter column" />'));
+                        $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange = function(ee) {
+                            var i = parseInt(ee.target.id.substr(6));
+                            CsvToHtmlTable_DataTable.column(i).search(this.value).draw();
+                        }
+                        $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onkeyup =
+                            $tableHeadRow_filter[0].childNodes[headerIdx].childNodes[0].onchange
+                    }
+                    $tableHead.append($tableHeadRow_filter);
+                }
+
                 $tableHead.append($tableHeadRow);
 
                 $table.append($tableHead);
@@ -50,7 +68,7 @@ CsvToHtmlTable = {
                 }
                 $table.append($tableBody);
 
-                $table.DataTable(datatables_options);
+                CsvToHtmlTable_DataTable = $table.DataTable(datatables_options);
 
                 if (allow_download) {
                     $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
