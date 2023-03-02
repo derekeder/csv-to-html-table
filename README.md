@@ -1,6 +1,6 @@
 # CSV to HTML Table
 
-Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100% JavaScript.
+Display any CSV file as a searchable, filterable, pretty [HTML table](https://www.scaler.com/topics/html/tables-in-html/). Done in 100% JavaScript.
 
 Check out the working demo: https://csv-to-html-table.netlify.app/
 
