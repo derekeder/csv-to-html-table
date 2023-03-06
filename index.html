@@ -4,10 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CSV to HTML Table</title>
-    <meta name="author" content="Derek Eder">
-    <meta content="Display any CSV file as a searchable, filterable, pretty HTML table">
+    <title>Christine Heitsh</title>
+    <meta name="author" content="Stephen Chenney">
+    <meta content="Acaemic Resume">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -16,6 +15,29 @@
 </head>
 
 <body>
+    <h1>Christine E. Heitsch</h1>
+    <div id="tab-container">
+        <ul class="nav nav-tabs" id="tab-list" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="research-tab" data-toggle="tab" href="#research" role="tab" aria-controls="research" aria-selected="false">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="teaching-tab" data-toggle="tab" href="#teaching" role="tab" aria-controls="teaching" aria-selected="false">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">Contact</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="tab-content">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home</div>
+          <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">Research.</div>
+          <div class="tab-pane fade" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">Teaching</div>
+          <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">Service</div>
+        </div>
+    </div>
     <div class="container-fluid">
         <main class="row">
             <div class="col">
