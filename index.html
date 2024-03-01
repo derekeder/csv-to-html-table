@@ -43,6 +43,7 @@
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
     <script src="js/csv_to_html_table.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/2.0.1/sorting/file-size.js"></script>
 
     <script>
         // https://stackoverflow.com/a/14919494
@@ -93,7 +94,10 @@
                 delimiter: '"'
             },
             datatables_options: {
-                paging: true
+                paging: true,
+                columnDefs: [
+                    { type: 'file-size', targets: 10 }
+                ]
             },
             custom_formatting: [
                 [8, format_download], [9, format_archive], [10, format_size]
