@@ -215,6 +215,7 @@ class DownloadClient(disnake.Client):
             
             print(f"Downloading {tempfile} by {charter} (Message ID: {message.id})")
             
+            # TODO: Add failed downloads to a list and post to a webhook or something idk
             if 'cdn.discordapp.com/attachments/' in url:
                 try:
                     await self.download_discord_link(url, tempfile)
