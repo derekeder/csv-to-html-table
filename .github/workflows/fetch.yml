@@ -32,7 +32,7 @@ jobs:
       - name: Download Latest Charts
         run: |
           export DISCORD_TOKEN=${{ secrets.DISCORD_TOKEN }}
-          export SERVICE_ACCOUNT_KEY="${{ secrets.SERVICE_ACCOUNT_KEY }}"
+          export SERVICE_ACCOUNT_KEY='${{ secrets.SERVICE_ACCOUNT_KEY }}'
           export CHARTS_CHANNEL=${{ vars.CHARTS_CHANNEL }}
           export SUBMISSIONS_CHANNEL=${{ vars.SUBMISSIONS_CHANNEL}}
           export TOOTBENDER_ID=${{ vars.TOOTBENDER_ID }}
