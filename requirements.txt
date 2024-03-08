@@ -4,3 +4,4 @@ disnake
 aiogoogle
 internetarchive
 python-dotenv
+requests

@@ -38,9 +38,20 @@ jobs:
           TOOTBENDER_ID=${{ vars.TOOTBENDER_ID }} \
           python download.py
 
+      - name: Upload Charts to Pixeldrain
+        run: PIXELDRAIN_KEY=${{ secrets.PIXELDRAIN_KEY}} python upload.py
+      
+      - name: Export to CSV
+        run: python to_csv.py
+
       - name: Commit Changes
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "Update Database Action"
           git commit -am "Update Database" || exit 0
           git push
+      
+      - name: Upload to the Internet Archive
+        run: |
+          S3_ACCESS_KEY=${{ secrets.S3_ACCESS_KEY }} \
+          S3_SECRET_KEY=${{ secrets.S3_SECRET_KEY }}
