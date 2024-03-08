@@ -315,7 +315,6 @@ class DownloadClient(disnake.Client):
             await self.main()
         except Exception:
             print(traceback.format_exc())
-            await self.close()
             sys.exit('Encountered a fatal error!')
 
 
