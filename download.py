@@ -176,7 +176,7 @@ class DownloadClient(disnake.Client):
 
     async def main(self):
         self.session = aiohttp.ClientSession()
-        channel = self.get_channel(int(os.getenv('CHART_CHANNEL')))
+        channel = self.get_channel(int(os.getenv('CHARTS_CHANNEL')))
         tootbender = await channel.guild.getch_member(int(os.getenv('TOOTBENDER_ID')))
         print('Fetching recent messages...')
 
