@@ -1,14 +1,8 @@
 name: Update Database
 
-# on:
-#   schedule:
-#     - cron: '0 * * * *'
-
-# only for testing
 on:
-    push:
-      branches:
-        - github-ci
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
   update:
