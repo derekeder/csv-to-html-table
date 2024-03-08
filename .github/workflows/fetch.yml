@@ -31,17 +31,16 @@ jobs:
 
       - name: Download Latest Charts
         run: |
-          export DISCORD_TOKEN=${{ secrets.DISCORD_TOKEN }}
-          export SERVICE_ACCOUNT_KEY='${{ secrets.SERVICE_ACCOUNT_KEY }}'
-          export CHARTS_CHANNEL=${{ vars.CHARTS_CHANNEL }}
-          export SUBMISSIONS_CHANNEL=${{ vars.SUBMISSIONS_CHANNEL}}
-          export TOOTBENDER_ID=${{ vars.TOOTBENDER_ID }}
+          DISCORD_TOKEN=${{ secrets.DISCORD_TOKEN }} \
+          SERVICE_ACCOUNT_KEY='${{ secrets.SERVICE_ACCOUNT_KEY }}' \
+          CHARTS_CHANNEL=${{ vars.CHARTS_CHANNEL }} \
+          SUBMISSIONS_CHANNEL=${{ vars.SUBMISSIONS_CHANNEL}} \
+          TOOTBENDER_ID=${{ vars.TOOTBENDER_ID }} \
           python download.py
 
       - name: Commit Changes
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "Update Database Action"
-          git checkout github-ci
           git diff --staged --quiet || git commit -m "Update Database"
           git push

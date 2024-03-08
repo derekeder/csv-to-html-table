@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import json
 import zipfile
 import shutil
@@ -315,6 +316,7 @@ class DownloadClient(disnake.Client):
         except Exception:
             print(traceback.format_exc())
             await self.close()
+            sys.exit('Encountered a fatal error!')
 
 
 if __name__ == "__main__":
