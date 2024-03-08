@@ -3,3 +3,4 @@ aiofiles
 disnake
 aiogoogle
 internetarchive
+python-dotenv

@@ -1,14 +1,22 @@
 import os
+import re
 import json
 import zipfile
 import shutil
+import hashlib
 import aiohttp
+import aiofiles
 import disnake
+import traceback
+from typing import Optional
 from urllib.parse import urlparse, parse_qs
 from datetime import datetime
-from pathlib import Path
+from dotenv import load_dotenv
 from aiogoogle import Aiogoogle
 from aiogoogle.auth.creds import ServiceAccountCreds
+
+# used for local testing
+load_dotenv()
 
 service_account_key = json.loads(os.getenv('SERVICE_ACCOUNT_KEY'))
 
@@ -33,6 +41,7 @@ class DownloadClient(disnake.Client):
             self.db = json.load(f)
         # We'll init this later
         self.session: aiohttp.ClientSession = None
+        self.user_agent = self.http.user_agent
     
 
     def parse_google_download_link(self, url: str) -> Optional[str]:
@@ -63,7 +72,7 @@ class DownloadClient(disnake.Client):
     def snowflake_to_datetime(self, snowflake) -> datetime:
         timestamp = int(snowflake) >> 22
         timestamp += 1420070400000 # Discord's epoch
-        return datetime.fromtimestamp(timestamp)
+        return datetime.fromtimestamp(timestamp / 1000)
     
 
     async def download_discord_link(self, url: str, path: str):
@@ -79,12 +88,12 @@ class DownloadClient(disnake.Client):
                         async with aiofiles.open(path, 'wb') as file:
                             async for data, _ in response.content.iter_chunks():
                                 await file.write(data)
-                                return
+                            return
         
         if not self.message_cache:
-            submissions_channel: disnake.TextChannel = bot.get_channel(os.getenv('SUBMISSIONS_CHANNEL'))
+            submissions_channel: disnake.TextChannel = self.get_channel(int(os.getenv('SUBMISSIONS_CHANNEL')))
             self.message_cache = await submissions_channel.history(
-                limit=None, after=snowflake_to_datetime(self.last_message_id), oldest_first=True
+                limit=None, after=self.snowflake_to_datetime(self.last_message_id), oldest_first=True
             ).flatten()
         
         attachment_id = parsed_url.path.split("/")[-2]
@@ -99,7 +108,7 @@ class DownloadClient(disnake.Client):
     
     async def get_toottally_id(self, filename, hash):
         try:
-            async with session.get(f'https://toottally.com/hashcheck/{hash}/') as r:
+            async with self.session.get(f'https://toottally.com/hashcheck/{hash}/') as r:
                 if r.status == 200:
                     return int(await r.text())
                 else:
@@ -160,17 +169,17 @@ class DownloadClient(disnake.Client):
     
     def truncate_string_to_bytes(self, s: str, max_bytes: int) -> str:
         encoded = s.encode('utf-8')
-        truncated = encoded_bytes[:max_bytes]
-        return truncated_bytes.decode('utf-8', 'ignore')
+        truncated = encoded[:max_bytes]
+        return truncated.decode('utf-8', 'ignore')
 
 
-    async def on_ready(self):
-        self.session = await aiohttp.ClientSession()
-        channel = bot.get_channel(os.getenv('CHART_CHANNEL'))
-        tootbender = await channel.guild.getch_member(os.getenv('TOOTBENDER_ID'))
+    async def main(self):
+        self.session = aiohttp.ClientSession()
+        channel = self.get_channel(int(os.getenv('CHART_CHANNEL')))
+        tootbender = await channel.guild.getch_member(int(os.getenv('TOOTBENDER_ID')))
         print('Fetching recent messages...')
 
-        chart_id = int(self.db[0]["id"])
+        chart_id = int(self.db[-1]["id"])
 
         def filter(message: disnake.Message):
             if message.author != tootbender:
@@ -182,26 +191,29 @@ class DownloadClient(disnake.Client):
             return True
 
         count = 0
+        last = self.last_message_id
             
-        async for message in await channel.history(
-            limit=None, after=snowflake_to_datetime(self.last_message_id), oldest_first=True
+        async for message in channel.history(
+            limit=None, after=self.snowflake_to_datetime(self.last_message_id), oldest_first=True
         ).filter(filter):
-            count += 1
-            _id = str(chart_id + 1).zfill(5)
+            last = message.id
+            _id = str(int(chart_id) + 1).zfill(5)
             url = None
-            for component in message.components:
-                if component.type != disnake.ComponentType.button:
-                    continue
-                if component.label != "Download Link":
-                    continue
-                url = component.url
+            for row in message.components:
+                for component in row.children:
+                    if component.type != disnake.ComponentType.button:
+                        continue
+                    if component.label != "Download Chart":
+                        continue
+                    url = component.url
+                    break
             
             if not url:
                 continue
             if not message.embeds[0].description:
                 continue
             mentions = re.findall(r"<@!?(\d+)>", message.embeds[0].description)
-            users = [i for i in [await self.bot.fetch_user(id) for id in mentions] if i is not None]
+            users = [i for i in [await self.fetch_user(id) for id in mentions] if i is not None]
 
             if not users:
                 charter = None
@@ -249,17 +261,26 @@ class DownloadClient(disnake.Client):
 
             if song_info.get("name", None) and song_info.get("author", None):
                 filename = f"{_id}. {song_info['name']} - {song_info['author']} [{charter if charter else 'Unknown'}].zip"
-                if len(filename.encode('utf-8')) > 180: # estimated guess to keep under limits
+                if len(filename.encode('utf-8')) > 180: # estimated guess to keep under name limits
                     filename = f"{_id}. {song_info['name']} [{charter if charter else 'Unknown'}].zip"
                     if len(filename.encode('utf-8')) > 180:
                         _artist = self.truncate_string_to_bytes(song_info['author'], 72)
                         _song = self.truncate_string_to_bytes(song_info['name'], 72)
                         filename = f"{_id}. {_song} - {_artist}.zip"
+            else:
+                filename = tempfile
+            filename = self.sanitise_filename(filename)
+            
+            try:
+                filelist = self.extract_files_from_zip(tempfile)
+            except Exception as e:
+                print(f"ERROR: Failed to extract file list for {filename} {e}")
+                filelist = []
             
             entry = {
                 "filename": filename,
                 "id": _id,
-                "filelist": self.extract_files_from_zip(tempfile)
+                "filelist": filelist
             } | song_info
             entry["version"] = None
 
@@ -270,18 +291,30 @@ class DownloadClient(disnake.Client):
             entry['pixeldrain_id'] = None # This will be sorted later
             entry['charter'] = charter
             entry['filesize'] = os.path.getsize(tempfile)
-            shutil.move(tempfile, 'charts/' + filename)
+            if not os.path.exists('.charts/'):
+                os.makedirs('.charts/')
+            shutil.move(tempfile, '.charts/' + filename)
             self.db.append(entry)
             chart_id = _id
+            count += 1
 
         if count:
             print(f"Saving {count} charts to the database...")
             with open('site/data/db.json', 'w', encoding="utf-8") as json_file:
-                json.dump(new_list, json_file, indent=4, ensure_ascii=False)
+                json.dump(self.db, json_file, indent=4, ensure_ascii=False)
+            with open('.config/last_message.txt', 'w') as file:
+                file.write(str(last))
         else:
             print("No new charts added to the database")
         
-        await self.bot.close()
+        await self.close()
+    
+    async def on_ready(self):
+        try:
+            await self.main()
+        except Exception:
+            print(traceback.format_exc())
+            await self.close()
 
 
 if __name__ == "__main__":
